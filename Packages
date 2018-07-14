@@ -253,6 +253,35 @@ Author: magn2o <magn2o@gmail.com>
 Depiction: http://modmyi.com/info/alkaline.d.php
 Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
 
+Package: com.hackyouriphone.noslowanimationsxibeta
+Architecture: iphoneos-arm
+Version: 2.0
+Section: HYI - Tweaks
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Filename: .//com.hackyouriphone.noslowanimationsxibeta_2.0_iphoneos-arm.deb
+Size: 18112
+MD5sum: f9b350075f4e8c021b07e43836c7a4e8
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=noslowanimationsxibeta
+Description: Don’t get slowed down by Animations on IOS 11!
+Name: NoSlowAnimationsXI (Beta 2)
+Author: Patrick Knauf <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=noslowanimationsxibeta
+
+Package: com.spark.laetus
+Architecture: iphoneos-arm
+Version: 0.0.1-108
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 616
+Depends: mobilesubstrate
+Filename: .//com.spark.laetus_0.0.1-108_iphoneos-arm.deb
+Size: 84476
+MD5sum: a1e266413a5e22c50c0880c167e8aba8
+Description: Custom keyboard colours
+Name: Laetus
+Author: Spark
+
 Package: org.thebigboss.libstatus9
 Architecture: iphoneos-arm
 Version: 1:0.0.1.5-1
@@ -725,6 +754,34 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: HASHBANG Productions <support@hbang.ws>
 dev: hbang
 
+Package: com.reddestdream.mhbcb
+Architecture: iphoneos-arm
+Version: 1.3
+Section: Tweaks
+Maintainer: ReddestDream <reddestdream@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic, com.reddestdream.minimalhostsblocker
+Filename: .//com.reddestdream.mhbcb_1.3_iphoneos-arm.deb
+Size: 2390
+MD5sum: 5c728e3db4e616a26632cb35681f57a8
+Description: Minimal Hosts to be used with a Content Blocker! ^_^
+Name: Minimal Hosts Blocker CB
+Depiction: https://reddestdream.github.io/depictions/MinimalHostsBlockerCB/index.html
+Author: ReddestDream <reddestdream@gmail.com>
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 99.0
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
+Filename: .//mobilesubstrate_99.0_iphoneos-arm.deb
+Size: 2724
+MD5sum: 5d951a9de3c708fc452184e0dccaea01
+Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
+Author: CoolStar <coolstarorganization@gmial.com>
+Name: Substrate Compatibility Layer
+
 Package: com.alexzielenski.zeppelin
 Architecture: iphoneos-arm
 Version: 2.1.0-12
@@ -811,6 +868,49 @@ MD5sum: 275be7a467b1befddb2e2f733a0b2893
 Description: standard Windows compression tool
 Tag: purpose::console, role::hacker
 
+Package: com.repo.xarold.com.cydown
+Architecture: iphoneos-arm
+Version: 6.9.5
+Section: Tweaks
+Maintainer: Xarold <contact@xarold.com>
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Filename: .//com.repo.xarold.com.cydown_6.9.5_iphoneos-arm.deb
+Size: 1066150
+MD5sum: fb7d84c0ff46e102e6defc5faf1e507f
+Description: Cydia Download Manager & Extra Features!
+Name: CyDown
+Depiction: http://repo.xarold.com/depiction.php?id=cydown
+Author: julioverne
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+
+Package: com.spark.nomoresmallapps
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 208
+Depends: mobilesubstrate, com.spark.libsparkapplist
+Filename: .//com.spark.nomoresmallapps_0.0.2_iphoneos-arm.deb
+Size: 18748
+MD5sum: c354d7245e94b0ebd6d0aebd3a12792b
+Description: Make all apps full screen on iPhone X
+Name: NoMoreSmallApps [Public]
+Author: Spark
+
+Package: com.cpdigitaldarkroom.barmoji
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: CP Digital Darkroom <admin@cpdigitaldarkroom.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: .//com.cpdigitaldarkroom.barmoji_1.0_iphoneos-arm.deb
+Size: 6132
+MD5sum: 8c9630f863332c9d51b57ebf7f12aeb6
+Description: Quick emoji access for iPhone X
+Name: Barmoji
+Author: CP Digital Darkroom <admin@cpdigitaldarkroom.com>
+
 Package: co.dynastic.tsssaver
 Architecture: iphoneos-arm
 Version: 1.2.0
@@ -846,6 +946,35 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Kiran Patil <patilkiran08@gmail.com>
 dev: imkpatil
 Icon: file:///Library/Application%20Support/FloatingDock/icon.png
+
+Package: com.imkpatil.spotcc
+Architecture: iphoneos-arm
+Version: 0.0.9-1+debug
+Section: Tweaks
+Maintainer: Kiran Patil
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: .//com.imkpatil.spotcc_0.0.9-1+debug_iphoneos-arm.deb
+Size: 3382
+MD5sum: b505d066249a50d07083b388c87ab55d
+Description: Tweak to bring up ControlCenter instead of Spotlight on the HomeScreen.
+Name: SpotCC
+Depiction: https://imkpatil.github.io/repo/depiction/SpotCC/index.html
+Author: Kiran Patil
+
+Package: it.dreamcode.picobanners2
+Architecture: iphoneos-arm
+Version: 0.0.1b2
+Section: Tweaks
+Maintainer: Michele Primavera <support@dreamcode.it>
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: .//it.dreamcode.picobanners2_0.0.1b2_iphoneos-arm.deb
+Size: 19360
+MD5sum: c51e5eaa71c34e5952499d6677cd886a
+Description: Smaller iOS 11 banners
+Name: PicoBanners 2
+Author: Michele Primavera <support@dreamcode.it>
 
 Package: com.anemonetheming.anemone
 Architecture: iphoneos-arm
@@ -991,6 +1120,24 @@ Depiction: https://repo.xarold.com/depiction.php?id=filzajailed
 Author: TIGI Software
 Icon: file:///Applications/Filza.app/AppIcon57x57.png
 
+Package: preferenceloader
+Architecture: iphoneos-arm
+Version: 2.2.3-3
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 232
+Depends: mobilesubstrate
+Filename: .//preferenceloader_2.2.3-3_iphoneos-arm.deb
+Size: 20212
+MD5sum: d5f50688820c0fd131c9444d71ed5ff4
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9
+Name: PreferenceLoader
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+dev: dustinhowett
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+
 Package: com.jakeashacks.realcc
 Architecture: iphoneos-arm
 Version: 1.0.1
@@ -1009,6 +1156,20 @@ Name: RealCC
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: jakeashacks
+
+Package: com.spark.easyswitcherx
+Architecture: iphoneos-arm
+Version: 0.0.4-5
+Section: Tweaks
+Maintainer: Spark
+Installed-Size: 308
+Depends: mobilesubstrate, preferenceloader
+Filename: .//com.spark.easyswitcherx_0.0.4-5_iphoneos-arm.deb
+Size: 52158
+MD5sum: 438ba67ccc777f303ba9792422a8497d
+Description: Swipe up on apps in the switcher to kill them, without having to press and hold (iPhone X - how it should have been)
+Name: EasySwitcherX [Public]
+Author: Spark
 
 Package: p7zip
 Architecture: iphoneos-arm
@@ -1337,6 +1498,21 @@ Homepage: http://www.gnu.org/software/bash/
 Description: the best shell ever written by Brian Fox
 Name: Bourne-Again SHell
 Author: Samuel Bingner
+
+Package: com.reddestdream.minimalhostsblocker
+Architecture: iphoneos-arm
+Version: 7.3
+Section: Tweaks
+Maintainer: ReddestDream <reddestdream@gmail.com>
+Pre-Depends: dpkg (>= 1.13.25-5)
+Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
+Filename: .//com.reddestdream.minimalhostsblocker_7.3_iphoneos-arm.deb
+Size: 5574
+MD5sum: 7ee7a78652a95b95508af5908f4780b0
+Description: A Minimal Ad Blocker! ^_^
+Name: Minimal Hosts Blocker
+Depiction: https://reddestdream.github.io/depictions/MinimalHostsBlocker/index.html
+Author: ReddestDream <reddestdream@gmail.com>
 
 Package: com.repo.xarold.com.cercube4
 Architecture: iphoneos-arm

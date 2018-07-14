@@ -7,5 +7,5 @@ Architecture: iphoneos-arm
 Components: main
 Description: JonaiPhone Official Repo
 MD5Sum:
- 4544b2475bf6e165b01713b7a1d5dba5 54678 Packages
- bcbe82ce0a449249a20130604a288146 10804 Packages.bz2
+ 029a1ee237a8b0c3f27aa65d98fa4938 61064 Packages
+ 0a78752756ae5dd622a76d116715258c 12128 Packages.bz2
