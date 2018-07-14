@@ -1220,3 +1220,252 @@ Author: AnemoneTeam <anemonetheming@gmail.com>
 dev: anemonetheming
 Icon: file:///Applications/Anemone.app/icon.png
 
+Package: com.yourepo.kiiimo.libb
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Development
+Depends: firmware (>= 8.0), com.rpetrich.rocketbootstrap
+Filename: .//com.yourepo.kiiimo.libb_1.0.2_iphoneos-arm.deb
+Size: 7070186
+MD5sum: 3395339b6111a0281e1259518e507923
+Description: A library used by Rocket tweak
+Name: libRocket
+Depiction: http://cydia.kiiimo.org/pack/libb
+Author: Majd Alfhaily
+
+Package: me.alfhaily.cercube
+Architecture: iphoneos-arm
+Version: 4.2.2.5
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 8421
+Depends: firmware (>= 8.0), mobilesubstrate, me.alfhaily.adblockforyoutube (>= 1.0.7), com.rpetrich.rocketbootstrap, me.alfhaily.cercube.lib (>= 1.0.9)
+Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2
+Filename: .//me.alfhaily.cercube_4.2.2.5_iphoneos-arm.deb
+Size: 2797690
+MD5sum: ca5553fcc99697956746e73d09abb400
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cercube3Dp
+Description: Download YouTube videos and more!
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Majd Alfhaily <freemanrepo@me.com>
+Name: Cercube for YouTube
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cercube3Dp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: freemanrepo
+Icon: file:///Library/Application%20Support/Cercube/Cercube.bundle/AppIcon.png
+
+Package: net.limneos.libbulletin
+Architecture: iphoneos-arm
+Version: 0.1-142
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 251
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: .//net.limneos.libbulletin_0.1-142_iphoneos-arm.deb
+Size: 23904
+MD5sum: 1afa5d0479404d6e360e650058effd74
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libbulletinDp
+Description: Simple library that displays bulletins
+Tag: cydia::obsolete, purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Name: libbulletin
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libbulletinDp
+Author: Elias Limneos <limneoselias@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: limneos
+
+Package: eu.bednarz.eyeris
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Themes
+Maintainer: Dennis Bednarz <Dennis.bednarz@outlook.com>
+Depends: firmware (>= 7.0), com.anemonetheming.anemone
+Filename: .//eu.bednarz.eyeris_1.0_iphoneos-arm.deb
+Size: 1966794
+MD5sum: 9886bd80dadfcf7d1f577242a2994dc6
+Description: A magnificient theme.
+Name: Mojito
+Dependencies:
+Author: Dennis Bednarz <Dennis.bednarz@outlook.com>
+
+Package: com.modmyi.libswift4
+Architecture: iphoneos-arm
+Version: 4.1.2-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 88311
+Depends: firmware (>= 7.0)
+Filename: .//com.modmyi.libswift4_4.1.2-1_iphoneos-arm.deb
+Size: 11155024
+MD5sum: 95a3c80977414612e58d89d42787bd31
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswift4Dp
+Description: libswift dylibs for iOS
+Tag: purpose::extension, cydia::obsolete, compatible::ios10, compatible::ios11
+Name: libswift4
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswift4Dp
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: kabiroberai
+
+Package: me.alfhaily.adblockforyoutube
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 241
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: .//me.alfhaily.adblockforyoutube_1.0.3_iphoneos-arm.deb
+Size: 31306
+MD5sum: d6d6b2ed899820bd686379199b4bee07
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=adblockforyoutubeDp
+Description: Block YouTube Ads and Video Ads
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Majd Alfhaily <freemanrepo@me.com>
+Name: AdBlock for YouTube
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=adblockforyoutubeDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: freemanrepo
+
+Package: fun.ignition.badiosbad
+Architecture: iphoneos-arm
+Version: 1.1.9
+Section: Tweaks
+Maintainer: Ignition
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: .//fun.ignition.badiosbad_1.1.9_iphoneos-arm.deb
+Size: 7546
+MD5sum: b50a856b4ae119786419b97ba0230b8d
+Description: Block iOS System Updates from the core, Castrate installd to allow 7 day certificate signed IPAs to install OTA (only when in jailbroken state), removes the Feedback Assistant App and destroys app revokes!
+Name: badiOSBad
+Author: Ignition
+
+Package: uuid
+Architecture: iphoneos-arm
+Version: 1.6.2
+Priority: important
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: .//uuid_1.6.2_iphoneos-arm.deb
+Size: 23222
+MD5sum: 6972c534ed27bfe1af3b1f7fd757a30e
+Description: universally unique identifiers
+Tag: purpose::library, purpose::console, role::developer
+Name: UUID Generator
+
+Package: com.tigisoftware.filza
+Architecture: iphoneos-arm
+Version: 3.5.2-1
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 30280
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Filename: .//com.tigisoftware.filza_3.5.2-1_iphoneos-arm.deb
+Size: 10019646
+MD5sum: 439b0381d6ccd3f3b91762b78587132f
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Description: File Manager for iOS. Supports iOS 7+
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Name: Filza File Manager
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: TIGI Software <satashi2009@gmail.com>
+dev: satashi2009
+Icon: file:///Applications/Filza.app/AppIcon57x57.png
+
+Package: com.vitataf.homegesture
+Architecture: iphoneos-arm
+Version: 1.6-2+debug
+Section: Tweaks
+Maintainer: MidnightChips/PINPAL
+Installed-Size: 128
+Depends: mobilesubstrate
+Filename: .//com.vitataf.homegesture_1.6-2+debug_iphoneos-arm.deb
+Size: 6364
+MD5sum: 41b9104400a47e9fab3d0d4db179f258
+Description: Enable iPhone X home gesture on other devices.
+Name: HomeGesture
+Author: VitaTaf/MidnightChips/PINPAL
+Depiction: https://pinpal.github.io/package/HomeGesture/index.html
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+
+Package: bash
+Architecture: iphoneos-arm
+Version: 4.4.18-2
+Priority: required
+Section: Terminal_Support
+Maintainer: Samuel Bingner
+Installed-Size: 6612
+Depends: grep, ncurses, sed
+Filename: .//bash_4.4.18-2_iphoneos-arm.deb
+Size: 859098
+MD5sum: e754d5f73b9b989858ac5e2fa218dfb1
+Homepage: http://www.gnu.org/software/bash/
+Description: the best shell ever written by Brian Fox
+Name: Bourne-Again SHell
+Author: Samuel Bingner
+
+Package: com.repo.xarold.com.cercube4
+Architecture: iphoneos-arm
+Version: 4.1.3k
+Section: Tweaks
+Depends: firmware (>= 8.0), mobilesubstrate, com.repo.xarold.com.adblockforyoutube, com.rpetrich.rocketbootstrap, com.repo.xarold.com.cercubelib (>= 1.0.6)
+Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.repo.xarold.com.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2
+Filename: .//com.repo.xarold.com.cercube4_4.1.3k_iphoneos-arm.deb
+Size: 3603002
+MD5sum: b11c82c4f828fba68e542d5b8a7bf565
+Description: Download YouTube videos and more!
+Name: Cercube for YouTube
+Depiction: http://repo.xarold.com/depiction.php?id=cercube4
+Author: Majd Alfhaily
+Icon: file:///Library/Application Support/Cercube/Cercube.bundle/AppIcon.png
+
+Package: unrar
+Architecture: iphoneos-arm
+Version: 5.5.8
+Priority: optional
+Section: Archiving
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Filename: .//unrar_5.5.8_iphoneos-arm.deb
+Size: 102032
+MD5sum: 498260e022c996a4262d6a4688f878ba
+Description: de-compresses files in rar format
+Tag: purpose::console, role::hacker
+
+Package: com.f0u4d.onlinenotify
+Architecture: iphoneos-arm
+Version: 2.3.19
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1613
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap, com.f0u4d.watusitools (>= 1.4.11)
+Conflicts: com.f0u4d.onlinenotifybeta, com.f0u4d.onlinenotify2, com.imokhles.waquickreply.bb
+Filename: .//com.f0u4d.onlinenotify_2.3.19_iphoneos-arm.deb
+Size: 364480
+MD5sum: a96219daa253b2bd3ed578193222acdc
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=onlinenotifyDp
+Description: Track you friends on WhatsApp Messenger!
+Tag: cydia::commercial, purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Name: OnlineNotify
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=onlinenotifyDp
+Author: Fouad Raheb <fouad.raheb@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: f0u4d
+Icon: file:///Library/PreferenceBundles/OnlineNotifyPrefs.bundle/OnlineNotifyPrefsIcon@2x.png
+
+Package: fun.ignition.badiosbad
+Architecture: iphoneos-arm
+Version: 1.0.5
+Section: Tweaks
+Maintainer: Ignition
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: .//fun.ignition.badiosbad_1.0.5_iphoneos-arm.deb
+Size: 2906
+MD5sum: 3a1fd3c4ec584f7ccf01de1d7dc908dc
+Description: Block iOS System Updates from the core and destroy app revokes!
+Name: badiOSBad
+Author: Ignition
+
