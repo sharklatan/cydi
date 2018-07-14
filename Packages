@@ -513,21 +513,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: PixelFire <pixelfiredev@helpful.io>
 dev: pixelfiredev
 
-Package: com.yourepo.kiiimo.newterm2
-Architecture: iphoneos-arm
-Version: 2.0
-Section: Terminal Support
-Depends: firmware (>= 7.0), com.modmyi.libswift4 (>= 4.0.3-3), ws.hbang.common (>= 1.11.2), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm
-Filename: .//com.yourepo.kiiimo.newterm2_2.0_iphoneos-arm.deb
-Size: 739178
-MD5sum: 766fd5450e410f7febc3da077588a62a
-Description: A powerful terminal app for iOS
-Name: NewTerm 2 (iOS 7 – 11)
-Depiction: http://cydia.kiiimo.org/pack/newterm2
-Author: HASHBANG Productions
-Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
-
 Package: com.julioverne.cracktool3
 Architecture: iphoneos-arm
 Version: 3.0~beta3
@@ -650,20 +635,6 @@ Description: A skeuomodern theme.
 Name: Mojito
 Author: Dennis Bednarz <Dennis.bednarz@outlook.com>
 
-Package: com.yourepo.kiiimo.bioprotect
-Architecture: iphoneos-arm
-Version: 2.3-9K
-Section: iOS 11.3x
-Depends: mobilesubstrate, preferenceloader
-Filename: .//com.yourepo.kiiimo.bioprotect_2.3-9K_iphoneos-arm.deb
-Size: 581780
-MD5sum: 18aa8e52173f92d834d67fe5a85ff3cd
-Description: Protect your apps with Touch ID!
-Name: BioProtect X for iOS 11
-Depiction: http://cydia.kiiimo.org/pack/bioprotect
-Author: Elias Limneos
-Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
-
 Package: jp.ashikase.libsymbolicate
 Architecture: iphoneos-arm
 Version: 1.9.0-1
@@ -753,21 +724,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangco
 Sponsor: thebigboss.org <http://thebigboss.org>
 Author: HASHBANG Productions <support@hbang.ws>
 dev: hbang
-
-Package: com.yourepo.kiiimo.extender-installer
-Architecture: iphoneos-arm
-Version: 020
-Section: iOS 11.3x
-Pre-Depends: ldid, unzip, coreutils, zip, sed
-Depends: mobilesubstrate
-Conflicts: com.julioverne.ext3nder
-Filename: .//com.yourepo.kiiimo.extender-installer_020_iphoneos-arm.deb
-Size: 457878
-MD5sum: c97832a5a49b4e24e4d7c39775c726c8
-Description: Cydia Extender Installer With Extra Features
-Name: Ext3nder Installer
-Depiction: http://cydia.kiiimo.org/pack/extender-installer
-Author: julioverne
 
 Package: com.alexzielenski.zeppelin
 Architecture: iphoneos-arm
@@ -1112,21 +1068,6 @@ MD5sum: 789f9fe786a69691a9eb59f574c9d857
 Description: iPhoneX Features for Non-X Devices on iOS 11
 Name: LittleX
 Author: iOS Creatix
-
-Package: com.yourepo.kiiimo.newterm2
-Architecture: iphoneos-arm
-Version: 2.0~beta3
-Section: iOS 11.3x
-Depends: firmware (>= 6.0), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8, ws.hbang.common (>= 1.11.2)
-Conflicts: ws.hbang.newterm
-Filename: .//com.yourepo.kiiimo.newterm2_2.0~beta3_iphoneos-arm.deb
-Size: 627328
-MD5sum: dd21d7f03d6fa7e9a8431fb7014fccdb
-Description: A powerful terminal emulator for iOS
-Name: NewTerm 2
-Depiction: http://cydia.kiiimo.org/pack/newterm2
-Author: HASHBANG Productions
-Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
 
 Package: com.vitataf.homegesture
 Architecture: iphoneos-arm
