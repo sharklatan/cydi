@@ -1,1222 +1,998 @@
-Package: com.junesiphone.lockpluspro
-Architecture: iphoneos-arm
-Version: 1.2.6
-Section: Addons (Tweaks)
-Maintainer: June <junesgraphics@gmail.com>
-Installed-Size: 36044
-Depends: mobilesubstrate, preferenceloader
-Conflicts:
-Filename: .//com.junesiphone.lockpluspro_1.2.6_iphoneos-arm.deb
-Size: 11543830
-MD5sum: f36a29d6829b4040ad6d443e99573ee3
-Description: The ultimate lock screen tweak!
-Tag: cydia::paid
-Name: LockPlus Pro
-Author: JunesiPhone <junesgraphics@gmail.com>
-Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/lockpluspro
-
-Package: fr.lululombard.certremaintime
-Architecture: iphoneos-arm
-Version: 2.3.4-2
-Section: Utilities
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 864
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
-Filename: .//fr.lululombard.certremaintime_2.3.4-2_iphoneos-arm.deb
-Size: 506562
-MD5sum: 83fa0f2017e3d999171c993c4fbd3373
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=certtimeremainingDp
-Description: check when you'll need to re-sign your jailbreak
-Tag: purpose::uikit, compatible::ios9, compatible::ios10
-Author: lululombard <contact@lululombard.fr>
-Name: CertRemainTime
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=certtimeremainingDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: lululombard
-Icon: file:///Applications/CertRemainTime.app/Icon.png
-
-Package: unzip
-Architecture: iphoneos-arm
-Version: 6.0
-Priority: important
-Section: Archiving
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: cy+cpu.arm64
-Filename: .//unzip_6.0_iphoneos-arm.deb
-Size: 74208
-MD5sum: 4d539faafa2d194d4ab0759dfb959156
-Description: de-compesses files in zip format
-Tag: purpose::console, role::hacker
-
-Package: com.vitataf.homegesture
-Architecture: iphoneos-arm
-Version: 1.4
-Section: Tweaks
-Maintainer: MidnightChips
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: .//com.vitataf.homegesture_1.4_iphoneos-arm.deb
-Size: 4230
-MD5sum: 3218c9c0242eaaf749df66c45d451af9
-Description: Enable iPhone X home gesture on other devices.
-Name: HomeGesture
-Author: VitaTaf
-
 Package: applist
-Architecture: iphoneos-arm
 Version: 1.5.14
 Section: System
 Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Installed-Size: 600
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.6~beta) | firmware (<< 7.0)
 Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: .//applist_1.5.14_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: deb/applist_1.5.14_iphoneos-arm.deb
 Size: 93312
+Installed-Size: 600
 MD5sum: abca7f0b846e9a2b286043d485635973
 Description: Allow extensions to read the list of installed apps
 Name: AppList
 Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-dev: rpetrich
-
-Package: net.tateu.opennotifier11
-Architecture: iphoneos-arm
-Version: 2.5.0~beta3
-Section: Tweaks
-Maintainer: tateu (Josh Harris) <tateu@tateu.net>
-Installed-Size: 1199
-Provides: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier
-Depends: firmware (>=11.0), mobilesubstrate, libstatus9 | libmoorecon | libstatusbar, preferenceloader, applist
-Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta, net.tateu.opennotifier9, net.tateu.opennotifier10
-Filename: .//net.tateu.opennotifier11_2.5.0~beta3_iphoneos-arm.deb
-Size: 99806
-MD5sum: 900b983d3aab3876e6c4cb1247d52097
-Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
-Name: OpenNotifier11 - tateu
-Author: tateu (based on n00neimp0rtant) <tateu@tateu.net>
-Depiction: http://www.tateu.net/repo/html/?p=opennotifier11
-
-Package: org.coolstar.tweakinject
-Architecture: iphoneos-arm
-Version: 1.0.6
-Section: System
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
-Filename: .//org.coolstar.tweakinject_1.0.6_iphoneos-arm.deb
-Size: 19214
-MD5sum: b2a66f99679aa137a39bc0f52f81cf3c
-Description: General purpose tweak loader with safe mode in case of crashes
-Name: Tweak Injector
-Author: CoolStar <coolstarorganization@gmail.com>
-
-Package: com.f0u4d.watusitools
-Architecture: iphoneos-arm
-Version: 1.4.11
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 30412
-Depends: firmware (>= 8.0)
-Conflicts: repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22
-Filename: .//com.f0u4d.watusitools_1.4.11_iphoneos-arm.deb
-Size: 6914756
-MD5sum: d684e0e785b54f48ce50391eab9f41e9
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=watusitoolsDp
-Description: Library for Watusi and WhatsApp tweaks
-Tag: cydia::obsolete, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Name: WatusiTools
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=watusitoolsDp
-Author: Fouad Raheb <fouad.raheb@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: f0u4d
-
-Package: pincrush
-Architecture: iphoneos-arm
-Version: 0.9.2-2
-Section: Utilities
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Filename: .//pincrush_0.9.2-2_iphoneos-arm.deb
-Size: 93806
-MD5sum: c8768523be4db830b6a65d44d9e08ae2
-Homepage: http://howett.net/pincrush
-Description: optimize PNGs just like Apple does
- pincrush is an open, cross-platform alternative to Apple's proprietary PNG mangler, to optimize PNGs for display on iPhoneOS devices.
-Tag: purpose::console, role::hacker
-Name: pincrush
-Author: Dustin Howett <dustin@howett.net>
-
-Package: com.modmyi.opennotifierpremiumpack
-Architecture: iphoneos-arm
-Version: 1.3.1
-Priority: extra
-Section: App Addons (OpenNotifier)
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Depends: com.n00neimp0rtant.opennotifier
-Conflicts: com.n00neimp0rtant.opennotifier.bluearrows, com.n00neimp0rtant.opennotifier.boxcarlogos, com.n00neimp0rtant.opennotifier.brownarrows, com.n00neimp0rtant.opennotifier.checkmark, com.n00neimp0rtant.opennotifier.chesspiece, com.n00neimp0rtant.opennotifier.espnlogo, com.n00neimp0rtant.opennotifier.facebooklogo, com.n00neimp0rtant.opennotifier.googlevoicelogo, com.n00neimp0rtant.opennotifier.kiklogo, com.n00neimp0rtant.opennotifier.rsslogo, com.n00neimp0rtant.opennotifier.smiley, com.n00neimp0rtant.opennotifier.sportacularlogo, com.n00neimp0rtant.opennotifier.textielogo, com.n00neimp0rtant.opennotifier.twitterlogos, com.n00neimp0rtant.opennotifier.whatsapplogo, com.n00neimp0rtant.opennotifier.wordswithfriendslogo
-Filename: .//com.modmyi.opennotifierpremiumpack_1.3.1_iphoneos-arm.deb
-Size: 252280
-MD5sum: 282f3b0b9d5286031f6c0e64e5f30e57
-Homepage: http://modmyi.com/info/opennotifierpremiumpack.php
-Description: The official premium pack for OpenNotifier
-Tag: cydia::commercial
-Name: OpenNotifier Premium Pack
-Author: Code Name <callmecodename@gmail.com>
-Depiction: http://modmyi.com/info/opennotifierpremiumpack.d.php
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
-
-Package: com.repo.xarold.com.shortlook
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: Tweaks
-Maintainer: Xarold <contact@xarold.com>
-Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
-Filename: .//com.repo.xarold.com.shortlook_1.0.1_iphoneos-arm.deb
-Size: 1631572
-MD5sum: cd2714a7d1dd7bce7b8a7d6c56f699ee
-Description: ShortLook shows you your notifications at a glance. ShortLook displays on your locked iPhone as you receive a notification using it's beautiful full screen design, allowing for readability from a distance. Made to be as unobtrusive as possible, it dismisses as soon as you tap the screen or Raise to Wake. It's configurable UI and behaviours ensure that ShortLook works how you want it to work.
-Name: ShortLook
-Depiction: https://repo.xarold.com/depiction.php?id=shortlook
-Author: Dynastic Development
-
-Package: jp.ashikase.techsupport
-Architecture: iphoneos-arm
-Version: 1.5.0.1-1
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 456
-Pre-Depends: firmware (>=3.0)
-Depends: jp.ashikase.libpackageinfo
-Filename: .//jp.ashikase.techsupport_1.5.0.1-1_iphoneos-arm.deb
-Size: 59664
-MD5sum: e991cf255cd487401f17aa304479bf61
-Homepage: http://github.com/ashikase/TechSupport
-Description: Framework to assist in providing feedback to developers.
-Tag: role::developer
-Name: TechSupport Framework
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=techsupportData
-Author: Lance Fetters (ashikase) <support@ashikase.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: ashikase
-
-Package: org.coolstar.cctools
-Architecture: iphoneos-arm
-Version: 895
-Priority: optional
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 11712
-Provides: odcctools
-Depends: openssl, uuid, org.coolstar.ld64
-Conflicts: odcctools
-Filename: .//org.coolstar.cctools_895_iphoneos-arm.deb
-Size: 1288112
-MD5sum: 4c4a9a805db329a4af6a31e9fff3f971
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
-Description: tools to work with mach-o files
-Tag: purpose::console
-Name: Darwin CC Tools
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: CoolStar <coolstarorganization@gmail.com>
-dev: coolstar
-
-Package: com.repo.xarold.com.icleanerpro
-Architecture: iphoneos-arm
-Version: 7.7.0k
-Section: Utilities
-Maintainer: Xarold <contact@xarold.com>
-Depends: firmware (>= 4.0), apt7, findutils, shell-cmds
-Conflicts: org.altervista.exilecom.icleaner
-Filename: .//com.repo.xarold.com.icleanerpro_7.7.0k_iphoneos-arm.deb
-Size: 6936958
-MD5sum: 0f086f76facd6bd7376770fc929f82ea
-Description: The first real iOS system cleaner & optimizer
-Name: iCleaner Pro 64bit
-Depiction: https://repo.xarold.com/depiction.php?id=icleanerpro
-Author: Ivano Bilenchi
-Icon: file:///Applications/iCleaner.app/Icon.png
-
-Package: com.fortysixandtwo.alkaline
-Architecture: iphoneos-arm
-Version: 1.3
-Priority: extra
-Section: Tweaks
-Maintainer: poetic_folly <poetic_folly@modmyi.com>
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Filename: .//com.fortysixandtwo.alkaline_1.3_iphoneos-arm.deb
-Size: 145556
-MD5sum: bf3cb4d495c31ddbfb18753aed0561cb
-Homepage: http://modmyi.com/info/alkaline.php
-Description: Themeable status bar battery replacement for iOS 7.
-Name: Alkaline
-Author: magn2o <magn2o@gmail.com>
-Depiction: http://modmyi.com/info/alkaline.d.php
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
-
-Package: org.thebigboss.libstatus9
-Architecture: iphoneos-arm
-Version: 1:0.0.1.5-1
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 177
-Provides: libstatusbar, libmoorecon
-Depends: mobilesubstrate,  firmware (>= 9.1), com.rpetrich.rocketbootstrap
-Conflicts: libstatusbar, libmoorecon
-Replaces: libstatusbar, libmoorecon
-Filename: .//org.thebigboss.libstatus9_0.0.1.5-1_iphoneos-arm.deb
-Size: 33124
-MD5sum: 2e0f36cc6722089676a6af6353a609f6
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libstatus9Dp
-Description: Statusbar icon support for 9.1+
-Tag: purpose::extension, role::developer, compatible::ios9, compatible::ios10
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libstatus9Dp
-Author: Rene Kahle <packetfahrer@web.de>
-Name: libstatus9
-dev: packetfahrer
-
-Package: io.sharklatan.libb
-Architecture: iphoneos-arm
-Version: 1.0.2
-Section: Development
-Maintainer: shark
-Depends: firmware (>= 8.0), com.rpetrich.rocketbootstrap
-Filename: .//io.sharklatan.libb_1.0.2_iphoneos-arm.deb
-Size: 4967728
-MD5sum: 48e62623b1b48a705e55de2d1c97955c
-Description: A library used by Rocket tweak
-Name: libRocket
-Depiction: http://sharklatan.github.io/cydia/depic/shark.html
-Author: Majd Alfhaily
-
-Package: com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Version: 1.0.6
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 504
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Filename: .//com.rpetrich.rocketbootstrap_1.0.6_iphoneos-arm.deb
-Size: 29514
-MD5sum: c10a8344cb7e5932000e3efaaa632b7e
-Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Tag: purpose::extension, role::developer
-Name: RocketBootstrap
-Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: rpetrich
-
-Package: com.yourepo.kiiimo.lib
-Architecture: iphoneos-arm
-Version: 1.0.9
-Section: Development
-Depends: firmware (>= 8.0)
-Filename: .//com.yourepo.kiiimo.lib_1.0.9_iphoneos-arm.deb
-Size: 4669022
-MD5sum: 4fdc5cbfebfd98f1c3795d1235f9211a
-Description: A library used by Cercube tweak
-Name: libCercube
-Depiction: http://cydia.kiiimo.org/pack/lib
-Author: Majd Alfhaily
-
-Package: com.vitataf.homegesture
-Architecture: iphoneos-arm
-Version: 1.5-5+debug
-Section: Tweaks
-Maintainer: MidnightChips/PINPAL
-Installed-Size: 132
-Depends: mobilesubstrate
-Filename: .//com.vitataf.homegesture_1.5-5+debug_iphoneos-arm.deb
-Size: 6780
-MD5sum: af320b96ce2986a79e51de6009f91887
-Description: Enable iPhone X home gesture on other devices.
-Name: HomeGesture
-Author: VitaTaf/MidnightChips/PINPAL
-Depiction: https://pinpal.github.io/package/HomeGesture/index.html
-Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
-
-Package: jp.ashikase.libcrashreport
-Architecture: iphoneos-arm
-Version: 1.1.0-1
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 196
-Pre-Depends: firmware (>= 3.0)
-Depends: jp.ashikase.libsymbolicate (>= 1.9.0), jp.ashikase.libpackageinfo
-Filename: .//jp.ashikase.libcrashreport_1.1.0-1_iphoneos-arm.deb
-Size: 30852
-MD5sum: 76aadc852da4bd6cb4dc59bc02fe9f20
-Homepage: http://github.com/ashikase/libcrashreport
-Description: Library to parse and symbolicate crash reports.
-    This library is based upon CrashReporter by kennytm.
-Tag: role::developer
-Name: libcrashreport
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcrashreportData
-Author: Lance Fetters (ashikase) <support@ashikase.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: ashikase
-
-Package: com.junesiphone.xenambreweather1
-Architecture: iphoneos-arm
-Version: 0.0.1
-Section: Addons (XenHTML)
-Maintainer: June <junesgraphics@gmail.com>
-Depends:
-Conflicts:
-Filename: .//com.junesiphone.xenambreweather1_0.0.1_iphoneos-arm.deb
-Size: 934748
-MD5sum: c0743e795183a9c47d35cb8da94254d9
-Description: Weather Widget for Ambre (Uses XenInfo)
-Tag: cydia::paid
-Name: Ambre Weather 1
-Author: JunesiPhone <junesgraphics@gmail.com>
-Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/xenambreweather1
-
-Package: com.repo.xarold.com.bioprotect
-Architecture: iphoneos-arm
-Version: 2.3-8
-Section: Tweaks
-Maintainer: Xarold <contact@xarold.com>
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), net.limneos.libbulletin
-Filename: .//com.repo.xarold.com.bioprotect_2.3-8_iphoneos-arm.deb
-Size: 595634
-MD5sum: 069c4da28040694b950682f531b4d394
-Description: Protect your apps with Touch ID!
-Name: BioProtect
-Depiction: http://repo.xarold.com/depiction.php?id=bioprotect
-Author: Elias Limneos
-Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
-
-Package: com.repo.xarold.com.cercubelib
-Architecture: iphoneos-arm
-Version: 1.0.6
-Section: Development
-Depends: firmware (>= 8.0)
-Filename: .//com.repo.xarold.com.cercubelib_1.0.6_iphoneos-arm.deb
-Size: 4843262
-MD5sum: b332e3f2cef37e569e457ecb06e5999f
-Description: A library used by Cercube tweak
-Name: libCercube
-Depiction: http://repo.xarold.com/depiction.php?id=cercubelib
-Author: Majd Alfhaily
-
-Package: org.coolstar.ld64
-Architecture: iphoneos-arm
-Version: 274.2
-Priority: optional
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 8112
-Depends: firmware (>= 5.0)
-Filename: .//org.coolstar.ld64_274.2_iphoneos-arm.deb
-Size: 1517478
-MD5sum: cf4ca625ea60dfcacc07c2d2dc633ce2
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ld64Dp
-Description: linker for building on iOS
-Tag: purpose::console
-Name: LD64
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ld64Dp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: CoolStar <coolstarorganization@gmail.com>
-dev: coolstar
-
-Package: crash-reporter
-Architecture: iphoneos-arm
-Version: 1.16.0-1
-Section: System
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1460
-Pre-Depends: firmware (>=4.0)
-Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
-Filename: .//crash-reporter_1.16.0-1_iphoneos-arm.deb
-Size: 254918
-MD5sum: 9799a244ef92c2739b01d917971fbe38
-Homepage: http://github/ashikase/CrashReporter/
-Description: Send useful crash info to developers.
-Tag: purpose::uikit, role::enduser
-Name: CrashReporter
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=crashreporterData
-dev: ashikase
-Author: Lance Fetters (ashikase) <support@ashikase.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: fun.ignition.fixbadiosbad
-Architecture: iphoneos-arm
-Version: 0.0.2
-Section: Tweaks
-Maintainer: Ignition
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: .//fun.ignition.fixbadiosbad_0.0.2_iphoneos-arm.deb
-Size: 2194
-MD5sum: 83439e4c6a258f74284c322080f3ed96
-Description: Remove our screw up.
-Name: fixbadiOSbad
-Author: Ignition
-
-Package: com.junesiphone.xenambreweather2
-Architecture: iphoneos-arm
-Version: 0.0.1
-Section: Addons (XenHTML)
-Maintainer: June <junesgraphics@gmail.com>
-Depends:
-Conflicts:
-Filename: .//com.junesiphone.xenambreweather2_0.0.1_iphoneos-arm.deb
-Size: 1429864
-MD5sum: d94c87e3c68ebdef42ba7dbf0fab3e40
-Description: Weather Widget for Ambre (Uses XenInfo)
-Tag: cydia::paid
-Name: Ambre Weather 2
-Author: JunesiPhone <junesgraphics@gmail.com>
-Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/xenambreweather2
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
 Package: bz.jed.tweakcompatible
-Architecture: iphoneos-arm
 Version: 0.0.7
 Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 136
 Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000)
-Filename: .//bz.jed.tweakcompatible_0.0.7_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: deb/bz.jed.tweakcompatible_0.0.7_iphoneos-arm.deb
 Size: 18034
+Installed-Size: 136
 MD5sum: 4c9d29ccc7dd8cca0ce5fc138dbbe023
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tweakcompatibleDp
 Description: Adds a way to check tweak compatibility in cydia
-Tag: purpose::extension, compatible::ios10, compatible::ios11
-Author: treAson <treasonftg@gmail.com>
 Name: tweakCompatible
+Author: treAson <treasonftg@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tweakcompatibleDp
 Depiction: http://sharklatan.github.io/cydia/depic/shark.html
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: jed
 
-Package: org.thebigboss.libcolorpicker
-Architecture: iphoneos-arm
-Version: 1.6-1
-Priority: optional
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 376
-Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: .//org.thebigboss.libcolorpicker_1.6-1_iphoneos-arm.deb
-Size: 71818
-MD5sum: 325a27bae9d2809ed959f09885944a6b
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
-Description: color picker library for developers
-Tag: purpose::library, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, cydia::obsolete
-Name: libcolorpicker
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: PixelFire <pixelfiredev@helpful.io>
-dev: pixelfiredev
-
-Package: com.yourepo.kiiimo.newterm2
-Architecture: iphoneos-arm
-Version: 2.0
-Section: Terminal Support
-Depends: firmware (>= 7.0), com.modmyi.libswift4 (>= 4.0.3-3), ws.hbang.common (>= 1.11.2), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm
-Filename: .//com.yourepo.kiiimo.newterm2_2.0_iphoneos-arm.deb
-Size: 739178
-MD5sum: 766fd5450e410f7febc3da077588a62a
-Description: A powerful terminal app for iOS
-Name: NewTerm 2 (iOS 7 – 11)
-Depiction: http://cydia.kiiimo.org/pack/newterm2
-Author: HASHBANG Productions
-Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
-
-Package: com.julioverne.cracktool3
-Architecture: iphoneos-arm
-Version: 3.0~beta3
+Package: co.dynastic.tsssaver
+Version: 1.2.0
 Section: Utilities
-Maintainer: Julio
-Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
-Filename: .//com.julioverne.cracktool3_3.0~beta3_iphoneos-arm.deb
-Size: 98680
-MD5sum: aee437f5fa35d0600a952b67428ba8fb
-Homepage: http://twitter.com/ijulioverne
-Description: Crack Tweaks on one click. arm64
-Name: CrackTool3 (iOS 11)
-Author: julioverne
+Maintainer: Jamie Bishop <jamie@dynastic.co>
+Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: deb/co.dynastic.tsssaver_1.2.0_iphoneos-arm.deb
+Size: 151996
+Installed-Size: 444
+MD5sum: bc033c8df65575079edb87b23907ed78
+Description: A one-click tool to save blobs using TSSsaver.1conan.com
+Name: TSS Saver
+Author: Jamie Bishop <jamie@dynastic.co>
+Depiction: https://repo.nullpixel.uk/depiction/co.dynastic.tsssaver/
 
 Package: co.vexation.nosubstitute
-Architecture: iphoneos-arm
 Version: 1.0-1
 Priority: optional
 Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 155
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
-Filename: .//co.vexation.nosubstitute_1.0-1_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: deb/co.vexation.nosubstitute_1.0-1_iphoneos-arm.deb
 Size: 8854
+Installed-Size: 155
 MD5sum: 30b0ea6ba4b4dc4b8d5305e680a7c24f
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nosubstituteDp
 Description: Disables substitute in apps.
-Tag: purpose::extension, compatible::ios11
 Name: NoSubstitute (Electra)
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nosubstituteDp
-Sponsor: thebigboss.org <http://thebigboss.org>
 Author: Dagzer <thatboidagzer@gmail.com>
-dev: thatboidagzer
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nosubstituteDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=nosubstituteDp
 Icon: file:///Library/PreferenceBundles/NoSubstitute.bundle/Card@2x.png
 
-Package: com.shmoopillc.flexible
-Architecture: iphoneos-arm
-Version: 1.6.0
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 5240
-Depends: firmware(>= 8.0), mobilesubstrate, preferenceloader, applist
-Filename: .//com.shmoopillc.flexible_1.6.0_iphoneos-arm.deb
-Size: 513930
-MD5sum: c277bedf940c81d96fedf01ef71b99e6
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexibleDp
-Description: Tweak to enable FLEX debugging tool
-Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Name: FLEXible
-Author: Shmoopi <shmoopillc@gmail.com>
-dev: shmoopi
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexibleDp
-Icon: file:///Library/PreferenceBundles/FlexiblePrefs.bundle/FLEXibleIcon@2x.png
-
-Package: com.repo.xarold.com.localiapstore
-Architecture: iphoneos-arm
-Version: 1.4-2
-Section: Tweaks
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Filename: .//com.repo.xarold.com.localiapstore_1.4-2_iphoneos-arm.deb
-Size: 42228
-MD5sum: 00dacf6f0f008f4e831e634a65b64b00
-Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
-Name: LocalIAPStore
-Depiction: http://repo.xarold.com/depiction.php?id=localiapstore
-Author: anondev
-
-Package: com.neinzedd9.percentagebatteryx
-Architecture: iphoneos-arm
-Version: 1.0.2
-Priority: optional
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 116
-Depends: mobilesubstrate, firmware (>= 11.0)
-Conflicts: com.neinzedd9.percentagecirclex
-Filename: .//com.neinzedd9.percentagebatteryx_1.0.2_iphoneos-arm.deb
-Size: 5062
-MD5sum: 2664921fef1e9666d90b0beed18d56bf
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=percentagebatteryxDp
-Description: Adds the percentage inside of the battery on iPhone X.
-Tag: purpose::extension, compatible::ios11
-Name: PercentageBatteryX
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=percentagebatteryxDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: NeinZedd9 <rockiesrockyoursocks@gmail.com>
-dev: neinzedd9
-
-Package: com.xcxiao.simplelsios10
-Architecture: iphoneos-arm
-Version: 1.3.1
-Priority: optional
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 670
-Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
-Filename: .//com.xcxiao.simplelsios10_1.3.1_iphoneos-arm.deb
-Size: 132816
-MD5sum: 77a373fcad645dad138246b0de957f1a
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=simplelockscreenios10Dp
-Description: Simple lockscreen for iOS 10/11 devices.
-Tag: purpose::extension, compatible::ios10, compatible::ios11
-Name: SimpleLSiOS
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=simplelockscreenios10Dp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: XCXiao <958169971@qq.com>
-dev: xcxiao
-Icon: file:///Library/PreferenceBundles/SIMPLELSPB.bundle/icon@2x.png
-
-Package: eu.bednarz.eyeris
-Architecture: iphoneos-arm
-Version: 1.2
-Section: Themes
-Maintainer: Dennis Bednarz <Dennis.bednarz@outlook.com>
-Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
-Filename: .//eu.bednarz.eyeris_1.2_iphoneos-arm.deb
-Size: 1834688
-MD5sum: 506df4973a78f9657e281c5f117989cd
-Description: A skeuomodern theme.
-Name: Mojito
-Author: Dennis Bednarz <Dennis.bednarz@outlook.com>
-
-Package: com.yourepo.kiiimo.bioprotect
-Architecture: iphoneos-arm
-Version: 2.3-9K
-Section: iOS 11.3x
-Depends: mobilesubstrate, preferenceloader
-Filename: .//com.yourepo.kiiimo.bioprotect_2.3-9K_iphoneos-arm.deb
-Size: 581780
-MD5sum: 18aa8e52173f92d834d67fe5a85ff3cd
-Description: Protect your apps with Touch ID!
-Name: BioProtect X for iOS 11
-Depiction: http://cydia.kiiimo.org/pack/bioprotect
-Author: Elias Limneos
-Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
-
-Package: jp.ashikase.libsymbolicate
-Architecture: iphoneos-arm
-Version: 1.9.0-1
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 200
-Pre-Depends: firmware (>=4.0)
-Filename: .//jp.ashikase.libsymbolicate_1.9.0-1_iphoneos-arm.deb
-Size: 25322
-MD5sum: ded5cca428237f0449596019735d4d76
-Homepage: http://github.com/ashikase/libsymbolicate
-Description: Library to symbolicate memory addresses.
-    This library is based upon CrashReporter by kennytm.
-Tag: role::developer
-Name: libsymbolicate
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsymbolicateData
-Author: Lance Fetters (ashikase) <support@ashikase.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: ashikase
-
-Package: com.repo.xarold.com.adblockforyoutube
-Architecture: iphoneos-arm
-Version: 1.0.7
-Section: Tweaks
-Maintainer: Xarold <contact@xarold.com>
-Depends: firmware (>= 8.0)
-Filename: .//com.repo.xarold.com.adblockforyoutube_1.0.7_iphoneos-arm.deb
-Size: 31784
-MD5sum: bf1111a601c8b50ca3fc044e19952d12
-Description: Block YouTube Ads and Video Ads
-Name: AdBlock for YouTube
-Depiction: http://repo.xarold.com/depiction.php?id=adblockforyoutube
-Author: Majd Alfhaily
-
-Package: com.pxcex.cameramode10
-Architecture: iphoneos-arm
-Version: 2.0.0
-Priority: optional
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 115
-Depends: mobilesubstrate, firmware (>= 10.0)
-Filename: .//com.pxcex.cameramode10_2.0.0_iphoneos-arm.deb
-Size: 3510
-MD5sum: 8470f7aef510d63efbaa44135b610e20
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cameramode10Dp
-Description: Activate Potrait Mode and All Features from the iPhone 7 Plus in any older iPhone iOS 10.
-Tag: purpose::extension, compatible::ios10
-Name: Camera Mode 10
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cameramode10Dp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: pxcex <pxcex@icloud.com>
-dev: pxcex
-
-Package: ws.hbang.common
-Architecture: iphoneos-arm
-Version: 1.12
-Priority: optional
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 830
-Depends: preferenceloader, mobilesubstrate, jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
-Filename: .//ws.hbang.common_1.12_iphoneos-arm.deb
-Size: 137674
-MD5sum: 0a83745de1e421ef9e7bde48380be8c7
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangcommonDp
-Description: Support library for tweak settings
-Tag: purpose::extension, cydia::obsolete, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Name: Cephei
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangcommonDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: HASHBANG Productions <support@hbang.ws>
-dev: hbang
-
-Package: com.yourepo.kiiimo.extender-installer
-Architecture: iphoneos-arm
-Version: 020
-Section: iOS 11.3x
-Pre-Depends: ldid, unzip, coreutils, zip, sed
-Depends: mobilesubstrate
-Conflicts: com.julioverne.ext3nder
-Filename: .//com.yourepo.kiiimo.extender-installer_020_iphoneos-arm.deb
-Size: 457878
-MD5sum: c97832a5a49b4e24e4d7c39775c726c8
-Description: Cydia Extender Installer With Extra Features
-Name: Ext3nder Installer
-Depiction: http://cydia.kiiimo.org/pack/extender-installer
-Author: julioverne
-
 Package: com.alexzielenski.zeppelin
-Architecture: iphoneos-arm
 Version: 2.1.0-12
 Priority: extra
 Section: Tweaks
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader
-Filename: .//com.alexzielenski.zeppelin_2.1.0-12_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: deb/com.alexzielenski.zeppelin_2.1.0-12_iphoneos-arm.deb
 Size: 903890
 MD5sum: 32485acccda244610610556080de81e4
-Homepage: http://modmyi.com/info/zeppelin.php
 Description: Replaces carrier text with an image!
 Name: Zeppelin
-Icon: http://i.imgur.com/tvLxnB5.png
 Author: Alex Zielenski <support@alexzielenski.com>
+Homepage: http://modmyi.com/info/zeppelin.php
 Depiction: http://modmyi.com/info/zeppelin.d.php
-Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
-
-Package: com.vitataf.homegesture
-Architecture: iphoneos-arm
-Version: 1.7.3
-Section: Tweaks
-Maintainer: MidnightChips/PINPAL
-Installed-Size: 984
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
-Filename: .//com.vitataf.homegesture_1.7.3_iphoneos-arm.deb
-Size: 814266
-MD5sum: 04552fc30a24e890750d623c9d1909a8
-Description: Enable iPhone X home gesture on other devices.
-Name: HomeGesture
-Author: VitaTaf/MidnightChips/PINPAL
-Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
-
-Package: com.linusyang.localeutf8
-Architecture: iphoneos-arm
-Version: 1.0-1
-Section: System
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 186
-Depends: profile.d
-Filename: .//com.linusyang.localeutf8_1.0-1_iphoneos-arm.deb
-Size: 5486
-MD5sum: 474ebfeb2d8140fecf0531b53f22b0ec
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
-Description: UTF-8 locale files for en_US and zh_CN
-Tag: purpose::console, role::hacker
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
-Author: Linus Yang <laokongzi@gmail.com>
-Name: Locale Profiles in UTF-8
-dev: laokongzi
-
-Package: ws.hbang.newterm2
-Architecture: iphoneos-arm
-Version: 2.0
-Section: Terminal Support
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 2192
-Depends: firmware (>= 7.0), com.modmyi.libswift4 (>= 4.0.3-3), ws.hbang.common (>= 1.11.2), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm
-Replaces: ws.hbang.newterm
-Filename: .//ws.hbang.newterm2_2.0_iphoneos-arm.deb
-Size: 738608
-MD5sum: d24b9d6245042596ad242892f6cad45c
-Description: A powerful terminal app for iOS
-Tag: compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Name: NewTerm 2 (iOS 7 – 11)
-Author: HASHBANG Productions <support@hbang.ws>
-Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
-Depiction: https://cydia.hbang.ws/package/ws.hbang.newterm2/
-Support: https://hbang.ws/support/
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: hbang
-
-Package: zip
-Architecture: iphoneos-arm
-Version: 3.0
-Priority: important
-Section: Archiving
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: cy+cpu.arm64
-Filename: .//zip_3.0_iphoneos-arm.deb
-Size: 97010
-MD5sum: 275be7a467b1befddb2e2f733a0b2893
-Description: standard Windows compression tool
-Tag: purpose::console, role::hacker
-
-Package: co.dynastic.tsssaver
-Architecture: iphoneos-arm
-Version: 1.2.0
-Section: Utilities
-Maintainer: Jamie Bishop <jamie@dynastic.co>
-Installed-Size: 444
-Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
-Filename: .//co.dynastic.tsssaver_1.2.0_iphoneos-arm.deb
-Size: 151996
-MD5sum: bc033c8df65575079edb87b23907ed78
-Description: A one-click tool to save blobs using TSSsaver.1conan.com
-Name: TSS Saver
-Depiction: https://repo.nullpixel.uk/depiction/co.dynastic.tsssaver/
-Author: Jamie Bishop <jamie@dynastic.co>
-
-Package: com.imkpatil.floatingdock
-Architecture: iphoneos-arm
-Version: 1.3
-Priority: optional
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 270
-Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
-Filename: .//com.imkpatil.floatingdock_1.3_iphoneos-arm.deb
-Size: 31896
-MD5sum: db93bff7fb8fdbd2931d96bc68f8bbfe
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=floatingdockDp
-Description: iPad like dock for iPhone!
-Tag: purpose::extension, compatible::ios11
-Name: FloatingDock
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=floatingdockDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: Kiran Patil <patilkiran08@gmail.com>
-dev: imkpatil
-Icon: file:///Library/Application%20Support/FloatingDock/icon.png
+Icon: http://i.imgur.com/tvLxnB5.png
 
 Package: com.anemonetheming.anemone
-Architecture: iphoneos-arm
-Version: 2.1.7-7
+Version: 2.1.8-1
 Priority: optional
 Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 8411
-Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
 Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: .//com.anemonetheming.anemone_2.1.7-7_iphoneos-arm.deb
-Size: 1878968
-MD5sum: 847ce61aa720e44dedb85dacfd2e17ec
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
+Architecture: iphoneos-arm
+Filename: deb/com.anemonetheming.anemone_2.1.8-1_iphoneos-arm.deb
+Size: 1869010
+Installed-Size: 8312
+MD5sum: 845beb761f8dfb93594cd9c0acfcf629
 Description: An awesome theme manager!
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
 Name: Anemone
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
-Sponsor: thebigboss.org <http://thebigboss.org>
 Author: AnemoneTeam <anemonetheming@gmail.com>
-dev: anemonetheming
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
 Icon: file:///Applications/Anemone.app/icon.png
 
-Package: eu.bednarz.eyeris
-Architecture: iphoneos-arm
-Version: 1.1
-Section: Themes
-Maintainer: Dennis Bednarz <Dennis.bednarz@outlook.com>
-Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
-Filename: .//eu.bednarz.eyeris_1.1_iphoneos-arm.deb
-Size: 1718152
-MD5sum: 0815883d1fb09f0e5a5d4c2b5fb90e1f
-Description: A skeuomodern theme.
-Name: Mojito
-Author: Dennis Bednarz <Dennis.bednarz@outlook.com>
-
-Package: fun.ignition.badiosbad
-Architecture: iphoneos-arm
-Version: 1.2.1-debug
-Section: Tweaks
-Maintainer: Ignition
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: .//fun.ignition.badiosbad_1.2.1-debug_iphoneos-arm.deb
-Size: 6462
-MD5sum: 959ca47af2eac8d4f3c5ec861d786362
-Description: Block iOS System Updates from the core, Castrate installd to allow 7 day certificate signed IPAs to install OTA (only when in jailbroken state), removes the Feedback Assistant App, removes update badge and destroys app revokes!
-Name: badiOSBad
-Depiction: https://ignition.fun/repo/depictions/badiOSbad.html
-Author: Ignition
-
-Package: jp.ashikase.libpackageinfo
-Architecture: iphoneos-arm
-Version: 1.1.0.1-1
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 720
-Pre-Depends: firmware (>=3.0)
-Filename: .//jp.ashikase.libpackageinfo_1.1.0.1-1_iphoneos-arm.deb
-Size: 148762
-MD5sum: c544484724bd16f7c964ce9bcdb44516
-Homepage: http://github.com/ashikase/libpackageinfo
-Description: Library to retrieve package information.
-Tag: role::developer
-Name: libpackageinfo
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpackageinfoData
-Author: Lance Fetters (ashikase) <support@ashikase.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: ashikase
-
-Package: perl
-Architecture: iphoneos-arm
-Version: 5.26.1-6
-Section: Development
-Maintainer: Samuel Bingner
-Installed-Size: 117240
-Provides: org.coolstar.perl
-Depends: firmware (>= 3.0)
-Conflicts: org.coolstar.perl
-Replaces: org.coolstar.perl
-Filename: .//perl_5.26.1-6_iphoneos-arm.deb
-Size: 19054940
-MD5sum: 6b51997637a821aaeaa121e2c09925d5
-Description: Perl.  It's perl.
-Tag: purpose::console, role::hacker
-Name: Perl
-Author: Samuel Bingner
-
 Package: com.ex.libsubstitute
-Architecture: iphoneos-arm
 Version: 0.0.6-coolstar
 Priority: optional
 Section: System
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 8.0), cy+cpu.arm64
-Filename: .//com.ex.libsubstitute_0.0.6-coolstar_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: deb/com.ex.libsubstitute_0.0.6-coolstar_iphoneos-arm.deb
 Size: 20436
 MD5sum: 930993acbba4cf4e819ec80aab155e3a
 Description: Substrate substitute for code substitution (library only)
 Name: Substitute
 Author: comex <comexk+da@gmail.com>
 
-Package: net.limneos.bioprotect
+Package: com.f0u4d.watusitools
+Version: 1.4.11
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0)
+Conflicts: repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22
 Architecture: iphoneos-arm
-Version: 2.3-8
+Filename: deb/com.f0u4d.watusitools_1.4.11_iphoneos-arm.deb
+Size: 6914756
+Installed-Size: 30412
+MD5sum: d684e0e785b54f48ce50391eab9f41e9
+Description: Library for Watusi and WhatsApp tweaks
+Name: WatusiTools
+Author: Fouad Raheb <fouad.raheb@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=watusitoolsDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=watusitoolsDp
+
+Package: com.fortysixandtwo.alkaline
+Version: 1.3
+Priority: extra
+Section: Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/com.fortysixandtwo.alkaline_1.3_iphoneos-arm.deb
+Size: 145556
+MD5sum: bf3cb4d495c31ddbfb18753aed0561cb
+Description: Themeable status bar battery replacement for iOS 7.
+Name: Alkaline
+Author: magn2o <magn2o@gmail.com>
+Homepage: http://modmyi.com/info/alkaline.php
+Depiction: http://modmyi.com/info/alkaline.d.php
+
+Package: com.fouadraheb.watusi
+Version: 1.0.52
 Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1812
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), net.limneos.libbulletin
-Filename: .//net.limneos.bioprotect_2.3-8_iphoneos-arm.deb
-Size: 596078
-MD5sum: 6a120aa13ef06785af12ee2eb60a66fd
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bioprotectDp
-Description: Protect your apps with Touch ID!
-Tag: cydia::commercial, purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
-Name: BioProtect
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bioprotectDp
-Author: Elias Limneos <iphone@limneos.net>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: limneos
-Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
-
-Package: org.fwdr.sonus
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.f0u4d.watusitools (>= 1.4.11), com.rpetrich.rocketbootstrap, applist
+Conflicts: com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools
+Replaces: org.thebigboss.watusi
 Architecture: iphoneos-arm
-Version: 3.0.2-3
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 846
-Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.9), com.rpetrich.rocketbootstrap (>= 1.0.2)
-Conflicts: io.github.himynameisubik.sonus
-Filename: .//org.fwdr.sonus_3.0.2-3_iphoneos-arm.deb
-Size: 113488
-MD5sum: a01e92fd6e0278f45560f12722b28266
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sonusDp
-Description: A better & highly customizable volume hud.
-Tag: cydia::commercial, purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
-Author: ubik <sonus@fwdr.org>
-Name: Sonus
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sonusDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: ubik
-Icon: file:///Library/PreferenceBundles/SonusPrefs.bundle/Images/Sonus@2x.png
+Filename: deb/com.fouadraheb.watusi_1.0.52_iphoneos-arm.deb
+Size: 2478150
+Installed-Size: 11112
+MD5sum: a9d9a63df2f9c89c855220dde7ca64b4
+Description: The all-in-one tweak for WhatsApp Messenger
+Name: Watusi 2 for WhatsApp
+Author: Fouad Raheb <fouad.raheb@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=watusi2Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=watusi2Dp
+Icon: file:///Library/PreferenceBundles/WatusiPrefs.bundle/icon@2x.png
 
-Package: com.repo.xarold.com.filzajailed
-Architecture: iphoneos-arm
-Version: 3.3.3
-Section: Utilities
-Maintainer: Xarold <contact@xarold.com>
-Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
-Filename: .//com.repo.xarold.com.filzajailed_3.3.3_iphoneos-arm.deb
-Size: 10627416
-MD5sum: daa1a42bc7467abe22a52fe5e46beb73
-Description: Filza File for iOS 11
-Name: Filza File for iOS 11
-Depiction: https://repo.xarold.com/depiction.php?id=filzajailed
-Author: TIGI Software
-Icon: file:///Applications/Filza.app/AppIcon57x57.png
-
-Package: com.jakeashacks.realcc
-Architecture: iphoneos-arm
-Version: 1.0.1
-Section: Tweaks
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 76
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: .//com.jakeashacks.realcc_1.0.1_iphoneos-arm.deb
-Size: 3758
-MD5sum: 24dd2692dac1b7e09d5497f240f77b05
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
-Description: Actually disable Wi-Fi from the iOS 11 CC
-Tag: purpose::extension, compatible::ios11
-Author: Jake James <jakeashacks@gmail.com>
-Name: RealCC
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: jakeashacks
-
-Package: p7zip
-Architecture: iphoneos-arm
-Version: 16.02
+Package: com.imkpatil.floatingdock
+Version: 1.3
 Priority: optional
-Section: Archiving
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Depends: cy+cpu.arm64
-Filename: .//p7zip_16.02_iphoneos-arm.deb
-Size: 923898
-MD5sum: ac447826cc6651977fa09e2ad1cf259e
-Description: A port of 7za.exe for POSIX systems like Unix
-Tag: purpose::console, role::hacker
-Name: 7-zip (POSIX)
-
-Package: net.tateu.opennotifier11
-Architecture: iphoneos-arm
-Version: 2.5.0~beta1-3
 Section: Tweaks
-Maintainer: tateu (Josh Harris) <tateu@tateu.net>
-Installed-Size: 1407
-Provides: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier
-Depends: firmware (>=11.0), mobilesubstrate, libstatus9 | libmoorecon | libstatusbar, preferenceloader, applist
-Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta, net.tateu.opennotifier9, net.tateu.opennotifier10
-Filename: .//net.tateu.opennotifier11_2.5.0~beta1-3_iphoneos-arm.deb
-Size: 137582
-MD5sum: 9f5020f860d76680981705d9f47e496b
-Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
-Name: OpenNotifier11 - tateu
-Author: tateu (based on n00neimp0rtant) <tateu@tateu.net>
-Depiction: http://www.tateu.net/repo/html/?p=opennotifier11
-
-Package: darwintools
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm
-Version: 1-6
-Priority: required
-Section: Administration
-Maintainer: CoolStar <coolstarorganization@gmail.com>
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: cy+cpu.arm64
-Filename: .//darwintools_1-6_iphoneos-arm.deb
-Size: 5500
-MD5sum: 77ee3394d0b38184098497270ec33d56
-Description: startupfiletool, sw_vers
-Name: Darwin Tools
+Filename: deb/com.imkpatil.floatingdock_1.3_iphoneos-arm.deb
+Size: 31896
+Installed-Size: 270
+MD5sum: db93bff7fb8fdbd2931d96bc68f8bbfe
+Description: iPad like dock for iPhone!
+Name: FloatingDock
+Author: Kiran Patil <patilkiran08@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=floatingdockDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=floatingdockDp
+Icon: file:///Library/Application%20Support/FloatingDock/icon.png
 
 Package: com.ioscreatix.littlex
-Architecture: iphoneos-arm
 Version: 1.3.7
 Section: Tweaks
 Maintainer: iOS Creatix
-Installed-Size: 236
 Depends: mobilesubstrate, preferenceloader
-Filename: .//com.ioscreatix.littlex_1.3.7_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: deb/com.ioscreatix.littlex_1.3.7_iphoneos-arm.deb
 Size: 27686
+Installed-Size: 236
 MD5sum: 789f9fe786a69691a9eb59f574c9d857
 Description: iPhoneX Features for Non-X Devices on iOS 11
 Name: LittleX
 Author: iOS Creatix
 
-Package: com.yourepo.kiiimo.newterm2
-Architecture: iphoneos-arm
-Version: 2.0~beta3
-Section: iOS 11.3x
-Depends: firmware (>= 6.0), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8, ws.hbang.common (>= 1.11.2)
-Conflicts: ws.hbang.newterm
-Filename: .//com.yourepo.kiiimo.newterm2_2.0~beta3_iphoneos-arm.deb
-Size: 627328
-MD5sum: dd21d7f03d6fa7e9a8431fb7014fccdb
-Description: A powerful terminal emulator for iOS
-Name: NewTerm 2
-Depiction: http://cydia.kiiimo.org/pack/newterm2
-Author: HASHBANG Productions
-Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
-
-Package: com.vitataf.homegesture
-Architecture: iphoneos-arm
-Version: 1.7
-Section: Tweaks
-Maintainer: MidnightChips/PINPAL
-Installed-Size: 984
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
-Filename: .//com.vitataf.homegesture_1.7_iphoneos-arm.deb
-Size: 814124
-MD5sum: 39c567017e1e66abd98e0ad2d1c5b90d
-Description: Enable iPhone X home gesture on other devices.
-Name: HomeGesture
-Author: VitaTaf/MidnightChips/PINPAL
-Depiction: https://pinpal.github.io/package/HomeGesture/index.html
-Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
-
-Package: com.fouadraheb.watusi
-Architecture: iphoneos-arm
-Version: 1.0.52
+Package: com.jakeashacks.realcc
+Version: 1.0.1
 Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 11112
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.f0u4d.watusitools (>= 1.4.11), com.rpetrich.rocketbootstrap, applist
-Conflicts: com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools
-Replaces: org.thebigboss.watusi
-Filename: .//com.fouadraheb.watusi_1.0.52_iphoneos-arm.deb
-Size: 2478150
-MD5sum: a9d9a63df2f9c89c855220dde7ca64b4
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=watusi2Dp
-Description: The all-in-one tweak for WhatsApp Messenger
-Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Name: Watusi 2 for WhatsApp
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=watusi2Dp
-Author: Fouad Raheb <fouad.raheb@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: f0u4d
-Icon: file:///Library/PreferenceBundles/WatusiPrefs.bundle/icon@2x.png
-
-Package: com.junesiphone.lockpluspro
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Version: 1.2.5
-Section: Addons (Tweaks)
-Maintainer: June <junesgraphics@gmail.com>
-Installed-Size: 36044
-Depends: mobilesubstrate, preferenceloader
-Conflicts:
-Filename: .//com.junesiphone.lockpluspro_1.2.5_iphoneos-arm.deb
-Size: 11547716
-MD5sum: 287ecf67e70f1e0fd2fe95b70961c326
-Description: The ultimate lock screen tweak!
-Tag: cydia::paid
-Name: LockPlus Pro
-Author: JunesiPhone <junesgraphics@gmail.com>
-Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/lockpluspro
+Filename: deb/com.jakeashacks.realcc_1.0.1_iphoneos-arm.deb
+Size: 3758
+Installed-Size: 76
+MD5sum: 24dd2692dac1b7e09d5497f240f77b05
+Description: Actually disable Wi-Fi from the iOS 11 CC
+Name: RealCC
+Author: Jake James <jakeashacks@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=realccDp
+
+Package: com.julioverne.cracktool3
+Version: 3.0~beta3
+Section: Utilities
+Maintainer: Julio
+Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Architecture: iphoneos-arm
+Filename: deb/com.julioverne.cracktool3_3.0~beta3_iphoneos-arm.deb
+Size: 98680
+MD5sum: aee437f5fa35d0600a952b67428ba8fb
+Description: Crack Tweaks on one click. arm64
+Name: CrackTool3 (iOS 11)
+Author: julioverne
+Homepage: http://twitter.com/ijulioverne
 
 Package: com.julioverne.ext3nder-installer
-Architecture: iphoneos-arm
 Version: 021a
 Section: Utilities
 Maintainer: Julio
 Pre-Depends: ldid, unzip, coreutils, zip, sed
 Depends: mobilesubstrate
 Conflicts: com.julioverne.ext3nder
-Filename: .//com.julioverne.ext3nder-installer_021a_iphoneos-arm.deb
+Architecture: iphoneos-arm
+Filename: deb/com.julioverne.ext3nder-installer_021a_iphoneos-arm.deb
 Size: 458136
 MD5sum: 6f85c09c63b6befd1652b4f69d026264
-Homepage: http://twitter.com/ijulioverne
 Description: Cydia Extender Installer With Extra Features
 Name: Ext3nder Installer
 Author: julioverne
+Homepage: http://twitter.com/ijulioverne
 Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ext3nder-installer
 
-Package: com.anemonetheming.anemone
+Package: com.junesiphone.lockpluspro
+Version: 1.2.6
+Section: Addons (Tweaks)
+Maintainer: June <junesgraphics@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Conflicts: 
 Architecture: iphoneos-arm
-Version: 2.1.8-1
+Filename: deb/com.junesiphone.lockpluspro_1.2.6_iphoneos-arm.deb
+Size: 11543830
+Installed-Size: 36044
+MD5sum: f36a29d6829b4040ad6d443e99573ee3
+Description: The ultimate lock screen tweak!
+Name: LockPlus Pro
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/lockpluspro
+
+Package: com.junesiphone.xenambreweather1
+Version: 0.0.1
+Section: Addons (XenHTML)
+Maintainer: June <junesgraphics@gmail.com>
+Depends: 
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: deb/com.junesiphone.xenambreweather1_0.0.1_iphoneos-arm.deb
+Size: 934748
+MD5sum: c0743e795183a9c47d35cb8da94254d9
+Description: Weather Widget for Ambre (Uses XenInfo)
+Name: Ambre Weather 1
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/xenambreweather1
+
+Package: com.junesiphone.xenambreweather2
+Version: 0.0.1
+Section: Addons (XenHTML)
+Maintainer: June <junesgraphics@gmail.com>
+Depends: 
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: deb/com.junesiphone.xenambreweather2_0.0.1_iphoneos-arm.deb
+Size: 1429864
+MD5sum: d94c87e3c68ebdef42ba7dbf0fab3e40
+Description: Weather Widget for Ambre (Uses XenInfo)
+Name: Ambre Weather 2
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/xenambreweather2
+
+Package: com.linusyang.localeutf8
+Version: 1.0-1
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: profile.d
+Architecture: iphoneos-arm
+Filename: deb/com.linusyang.localeutf8_1.0-1_iphoneos-arm.deb
+Size: 5486
+Installed-Size: 186
+MD5sum: 474ebfeb2d8140fecf0531b53f22b0ec
+Description: UTF-8 locale files for en_US and zh_CN
+Name: Locale Profiles in UTF-8
+Author: Linus Yang <laokongzi@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+
+Package: com.modmyi.opennotifierpremiumpack
+Version: 1.3.1
+Priority: extra
+Section: App Addons (OpenNotifier)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Depends: com.n00neimp0rtant.opennotifier
+Conflicts: com.n00neimp0rtant.opennotifier.bluearrows, com.n00neimp0rtant.opennotifier.boxcarlogos, com.n00neimp0rtant.opennotifier.brownarrows, com.n00neimp0rtant.opennotifier.checkmark, com.n00neimp0rtant.opennotifier.chesspiece, com.n00neimp0rtant.opennotifier.espnlogo, com.n00neimp0rtant.opennotifier.facebooklogo, com.n00neimp0rtant.opennotifier.googlevoicelogo, com.n00neimp0rtant.opennotifier.kiklogo, com.n00neimp0rtant.opennotifier.rsslogo, com.n00neimp0rtant.opennotifier.smiley, com.n00neimp0rtant.opennotifier.sportacularlogo, com.n00neimp0rtant.opennotifier.textielogo, com.n00neimp0rtant.opennotifier.twitterlogos, com.n00neimp0rtant.opennotifier.whatsapplogo, com.n00neimp0rtant.opennotifier.wordswithfriendslogo
+Architecture: iphoneos-arm
+Filename: deb/com.modmyi.opennotifierpremiumpack_1.3.1_iphoneos-arm.deb
+Size: 252280
+MD5sum: 282f3b0b9d5286031f6c0e64e5f30e57
+Description: The official premium pack for OpenNotifier
+Name: OpenNotifier Premium Pack
+Author: Code Name <callmecodename@gmail.com>
+Homepage: http://modmyi.com/info/opennotifierpremiumpack.php
+Depiction: http://modmyi.com/info/opennotifierpremiumpack.d.php
+
+Package: com.neinzedd9.percentagebatteryx
+Version: 1.0.2
 Priority: optional
 Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 8312
-Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
-Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
-Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
-Filename: .//com.anemonetheming.anemone_2.1.8-1_iphoneos-arm.deb
-Size: 1869010
-MD5sum: 845beb761f8dfb93594cd9c0acfcf629
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
-Description: An awesome theme manager!
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Name: Anemone
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
-Sponsor: thebigboss.org <http://thebigboss.org>
-Author: AnemoneTeam <anemonetheming@gmail.com>
-dev: anemonetheming
-Icon: file:///Applications/Anemone.app/icon.png
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.neinzedd9.percentagecirclex
+Architecture: iphoneos-arm
+Filename: deb/com.neinzedd9.percentagebatteryx_1.0.2_iphoneos-arm.deb
+Size: 5062
+Installed-Size: 116
+MD5sum: 2664921fef1e9666d90b0beed18d56bf
+Description: Adds the percentage inside of the battery on iPhone X.
+Name: PercentageBatteryX
+Author: NeinZedd9 <rockiesrockyoursocks@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=percentagebatteryxDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=percentagebatteryxDp
+
+Package: com.pxcex.cameramode10
+Version: 2.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 10.0)
+Architecture: iphoneos-arm
+Filename: deb/com.pxcex.cameramode10_2.0.0_iphoneos-arm.deb
+Size: 3510
+Installed-Size: 115
+MD5sum: 8470f7aef510d63efbaa44135b610e20
+Description: Activate Potrait Mode and All Features from the iPhone 7 Plus in any older iPhone iOS 10.
+Name: Camera Mode 10
+Author: pxcex <pxcex@icloud.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cameramode10Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cameramode10Dp
+
+Package: com.repo.xarold.com.adblockforyoutube
+Version: 1.0.7
+Section: Tweaks
+Maintainer: Xarold <contact@xarold.com>
+Depends: firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: deb/com.repo.xarold.com.adblockforyoutube_1.0.7_iphoneos-arm.deb
+Size: 31784
+MD5sum: bf1111a601c8b50ca3fc044e19952d12
+Description: Block YouTube Ads and Video Ads
+Name: AdBlock for YouTube
+Author: Majd Alfhaily
+Depiction: http://repo.xarold.com/depiction.php?id=adblockforyoutube
+
+Package: com.repo.xarold.com.bioprotect
+Version: 2.3-8
+Section: Tweaks
+Maintainer: Xarold <contact@xarold.com>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), net.limneos.libbulletin
+Architecture: iphoneos-arm
+Filename: deb/com.repo.xarold.com.bioprotect_2.3-8_iphoneos-arm.deb
+Size: 595634
+MD5sum: 069c4da28040694b950682f531b4d394
+Description: Protect your apps with Touch ID!
+Name: BioProtect
+Author: Elias Limneos
+Depiction: http://repo.xarold.com/depiction.php?id=bioprotect
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
+
+Package: com.repo.xarold.com.cercubelib
+Version: 1.0.6
+Section: Development
+Depends: firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: deb/com.repo.xarold.com.cercubelib_1.0.6_iphoneos-arm.deb
+Size: 4843262
+MD5sum: b332e3f2cef37e569e457ecb06e5999f
+Description: A library used by Cercube tweak
+Name: libCercube
+Author: Majd Alfhaily
+Depiction: http://repo.xarold.com/depiction.php?id=cercubelib
+
+Package: com.repo.xarold.com.filzajailed
+Version: 3.3.3
+Section: Utilities
+Maintainer: Xarold <contact@xarold.com>
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Architecture: iphoneos-arm
+Filename: deb/com.repo.xarold.com.filzajailed_3.3.3_iphoneos-arm.deb
+Size: 10627416
+MD5sum: daa1a42bc7467abe22a52fe5e46beb73
+Description: Filza File for iOS 11
+Name: Filza File for iOS 11
+Author: TIGI Software
+Depiction: https://repo.xarold.com/depiction.php?id=filzajailed
+Icon: file:///Applications/Filza.app/AppIcon57x57.png
+
+Package: com.repo.xarold.com.icleanerpro
+Version: 7.7.0k
+Section: Utilities
+Maintainer: Xarold <contact@xarold.com>
+Depends: firmware (>= 4.0), apt7, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
+Architecture: iphoneos-arm
+Filename: deb/com.repo.xarold.com.icleanerpro_7.7.0k_iphoneos-arm.deb
+Size: 6936958
+MD5sum: 0f086f76facd6bd7376770fc929f82ea
+Description: The first real iOS system cleaner & optimizer
+Name: iCleaner Pro 64bit
+Author: Ivano Bilenchi
+Depiction: https://repo.xarold.com/depiction.php?id=icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+
+Package: com.repo.xarold.com.localiapstore
+Version: 1.4-2
+Section: Tweaks
+Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/com.repo.xarold.com.localiapstore_1.4-2_iphoneos-arm.deb
+Size: 42228
+MD5sum: 00dacf6f0f008f4e831e634a65b64b00
+Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
+Name: LocalIAPStore
+Author: anondev
+Depiction: http://repo.xarold.com/depiction.php?id=localiapstore
+
+Package: com.repo.xarold.com.shortlook
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Xarold <contact@xarold.com>
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/com.repo.xarold.com.shortlook_1.0.1_iphoneos-arm.deb
+Size: 1631572
+MD5sum: cd2714a7d1dd7bce7b8a7d6c56f699ee
+Description: ShortLook shows you your notifications at a glance. ShortLook displays on your locked iPhone as you receive a notification using it's beautiful full screen design, allowing for readability from a distance. Made to be as unobtrusive as possible, it dismisses as soon as you tap the screen or Raise to Wake. It's configurable UI and behaviours ensure that ShortLook works how you want it to work.
+Name: ShortLook
+Author: Dynastic Development
+Depiction: https://repo.xarold.com/depiction.php?id=shortlook
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.6
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Architecture: iphoneos-arm
+Filename: deb/com.rpetrich.rocketbootstrap_1.0.6_iphoneos-arm.deb
+Size: 29514
+Installed-Size: 504
+MD5sum: c10a8344cb7e5932000e3efaaa632b7e
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Name: RocketBootstrap
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/
+
+Package: com.shmoopillc.flexible
+Version: 1.6.0
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware(>= 8.0), mobilesubstrate, preferenceloader, applist
+Architecture: iphoneos-arm
+Filename: deb/com.shmoopillc.flexible_1.6.0_iphoneos-arm.deb
+Size: 513930
+Installed-Size: 5240
+MD5sum: c277bedf940c81d96fedf01ef71b99e6
+Description: Tweak to enable FLEX debugging tool
+Name: FLEXible
+Author: Shmoopi <shmoopillc@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexibleDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=flexibleDp
+Icon: file:///Library/PreferenceBundles/FlexiblePrefs.bundle/FLEXibleIcon@2x.png
+
+Package: com.vitataf.homegesture
+Version: 1.7.3
+Section: Tweaks
+Maintainer: MidnightChips/PINPAL
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Architecture: iphoneos-arm
+Filename: deb/com.vitataf.homegesture_1.7.3_iphoneos-arm.deb
+Size: 814266
+Installed-Size: 984
+MD5sum: 04552fc30a24e890750d623c9d1909a8
+Description: Enable iPhone X home gesture on other devices.
+Name: HomeGesture
+Author: VitaTaf/MidnightChips/PINPAL
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+
+Package: com.xcxiao.simplelsios10
+Version: 1.3.1
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/com.xcxiao.simplelsios10_1.3.1_iphoneos-arm.deb
+Size: 132816
+Installed-Size: 670
+MD5sum: 77a373fcad645dad138246b0de957f1a
+Description: Simple lockscreen for iOS 10/11 devices.
+Name: SimpleLSiOS
+Author: XCXiao <958169971@qq.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=simplelockscreenios10Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=simplelockscreenios10Dp
+Icon: file:///Library/PreferenceBundles/SIMPLELSPB.bundle/icon@2x.png
+
+Package: com.yourepo.kiiimo.bioprotect
+Version: 2.3-9K
+Section: iOS 11.3x
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/com.yourepo.kiiimo.bioprotect_2.3-9K_iphoneos-arm.deb
+Size: 581780
+MD5sum: 18aa8e52173f92d834d67fe5a85ff3cd
+Description: Protect your apps with Touch ID!
+Name: BioProtect X for iOS 11
+Author: Elias Limneos
+Depiction: http://cydia.kiiimo.org/pack/bioprotect
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
+
+Package: com.yourepo.kiiimo.extender-installer
+Version: 020
+Section: iOS 11.3x
+Pre-Depends: ldid, unzip, coreutils, zip, sed
+Depends: mobilesubstrate
+Conflicts: com.julioverne.ext3nder
+Architecture: iphoneos-arm
+Filename: deb/com.yourepo.kiiimo.extender-installer_020_iphoneos-arm.deb
+Size: 457878
+MD5sum: c97832a5a49b4e24e4d7c39775c726c8
+Description: Cydia Extender Installer With Extra Features
+Name: Ext3nder Installer
+Author: julioverne
+Depiction: http://cydia.kiiimo.org/pack/extender-installer
+
+Package: com.yourepo.kiiimo.lib
+Version: 1.0.9
+Section: Development
+Depends: firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: deb/com.yourepo.kiiimo.lib_1.0.9_iphoneos-arm.deb
+Size: 4669022
+MD5sum: 4fdc5cbfebfd98f1c3795d1235f9211a
+Description: A library used by Cercube tweak
+Name: libCercube
+Author: Majd Alfhaily
+Depiction: http://cydia.kiiimo.org/pack/lib
+
+Package: com.yourepo.kiiimo.newterm2
+Version: 2.0
+Section: Terminal Support
+Depends: firmware (>= 7.0), com.modmyi.libswift4 (>= 4.0.3-3), ws.hbang.common (>= 1.11.2), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm
+Architecture: iphoneos-arm
+Filename: deb/com.yourepo.kiiimo.newterm2_2.0_iphoneos-arm.deb
+Size: 739178
+MD5sum: 766fd5450e410f7febc3da077588a62a
+Description: A powerful terminal app for iOS
+Name: NewTerm 2 (iOS 7 – 11)
+Author: HASHBANG Productions
+Depiction: http://cydia.kiiimo.org/pack/newterm2
+Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
+
+Package: crash-reporter
+Version: 1.16.0-1
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Pre-Depends: firmware (>=4.0)
+Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/crash-reporter_1.16.0-1_iphoneos-arm.deb
+Size: 254918
+Installed-Size: 1460
+MD5sum: 9799a244ef92c2739b01d917971fbe38
+Description: Send useful crash info to developers.
+Name: CrashReporter
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Homepage: http://github/ashikase/CrashReporter/
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=crashreporterData
+
+Package: darwintools
+Version: 1-6
+Priority: required
+Section: Administration
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64
+Architecture: iphoneos-arm
+Filename: deb/darwintools_1-6_iphoneos-arm.deb
+Size: 5500
+MD5sum: 77ee3394d0b38184098497270ec33d56
+Description: startupfiletool, sw_vers
+Name: Darwin Tools
+
+Package: eu.bednarz.eyeris
+Version: 1.2
+Section: Themes
+Maintainer: Dennis Bednarz <Dennis.bednarz@outlook.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: deb/eu.bednarz.eyeris_1.2_iphoneos-arm.deb
+Size: 1834688
+MD5sum: 506df4973a78f9657e281c5f117989cd
+Description: A skeuomodern theme.
+Name: Mojito
+Author: Dennis Bednarz <Dennis.bednarz@outlook.com>
+
+Package: fr.lululombard.certremaintime
+Version: 2.3.4-2
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: deb/fr.lululombard.certremaintime_2.3.4-2_iphoneos-arm.deb
+Size: 506562
+Installed-Size: 864
+MD5sum: 83fa0f2017e3d999171c993c4fbd3373
+Description: check when you'll need to re-sign your jailbreak
+Name: CertRemainTime
+Author: lululombard <contact@lululombard.fr>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=certtimeremainingDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=certtimeremainingDp
+Icon: file:///Applications/CertRemainTime.app/Icon.png
+
+Package: fun.ignition.badiosbad
+Version: 1.2.1-debug
+Section: Tweaks
+Maintainer: Ignition
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/fun.ignition.badiosbad_1.2.1-debug_iphoneos-arm.deb
+Size: 6462
+Installed-Size: 120
+MD5sum: 959ca47af2eac8d4f3c5ec861d786362
+Description: Block iOS System Updates from the core, Castrate installd to allow 7 day certificate signed IPAs to install OTA (only when in jailbroken state), removes the Feedback Assistant App, removes update badge and destroys app revokes!
+Name: badiOSBad
+Author: Ignition
+Depiction: https://ignition.fun/repo/depictions/badiOSbad.html
+
+Package: fun.ignition.fixbadiosbad
+Version: 0.0.2
+Section: Tweaks
+Maintainer: Ignition
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/fun.ignition.fixbadiosbad_0.0.2_iphoneos-arm.deb
+Size: 2194
+Installed-Size: 104
+MD5sum: 83439e4c6a258f74284c322080f3ed96
+Description: Remove our screw up.
+Name: fixbadiOSbad
+Author: Ignition
+
+Package: io.sharklatan.libb
+Version: 1.0.2
+Section: Development
+Maintainer: shark
+Depends: firmware (>= 8.0), com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: deb/io.sharklatan.libb_1.0.2_iphoneos-arm.deb
+Size: 4967728
+MD5sum: 48e62623b1b48a705e55de2d1c97955c
+Description: A library used by Rocket tweak
+Name: libRocket
+Author: Majd Alfhaily
+Depiction: http://sharklatan.github.io/cydia/depic/shark.html
+
+Package: jp.ashikase.libcrashreport
+Version: 1.1.0-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Pre-Depends: firmware (>= 3.0)
+Depends: jp.ashikase.libsymbolicate (>= 1.9.0), jp.ashikase.libpackageinfo
+Architecture: iphoneos-arm
+Filename: deb/jp.ashikase.libcrashreport_1.1.0-1_iphoneos-arm.deb
+Size: 30852
+Installed-Size: 196
+MD5sum: 76aadc852da4bd6cb4dc59bc02fe9f20
+Description: Library to parse and symbolicate crash reports.
+    This library is based upon CrashReporter by kennytm.
+Name: libcrashreport
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Homepage: http://github.com/ashikase/libcrashreport
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcrashreportData
+
+Package: jp.ashikase.libpackageinfo
+Version: 1.1.0.1-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Pre-Depends: firmware (>=3.0)
+Architecture: iphoneos-arm
+Filename: deb/jp.ashikase.libpackageinfo_1.1.0.1-1_iphoneos-arm.deb
+Size: 148762
+Installed-Size: 720
+MD5sum: c544484724bd16f7c964ce9bcdb44516
+Description: Library to retrieve package information.
+Name: libpackageinfo
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Homepage: http://github.com/ashikase/libpackageinfo
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libpackageinfoData
+
+Package: jp.ashikase.libsymbolicate
+Version: 1.9.0-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Pre-Depends: firmware (>=4.0)
+Architecture: iphoneos-arm
+Filename: deb/jp.ashikase.libsymbolicate_1.9.0-1_iphoneos-arm.deb
+Size: 25322
+Installed-Size: 200
+MD5sum: ded5cca428237f0449596019735d4d76
+Description: Library to symbolicate memory addresses.
+    This library is based upon CrashReporter by kennytm.
+Name: libsymbolicate
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Homepage: http://github.com/ashikase/libsymbolicate
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsymbolicateData
+
+Package: jp.ashikase.techsupport
+Version: 1.5.0.1-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Pre-Depends: firmware (>=3.0)
+Depends: jp.ashikase.libpackageinfo
+Architecture: iphoneos-arm
+Filename: deb/jp.ashikase.techsupport_1.5.0.1-1_iphoneos-arm.deb
+Size: 59664
+Installed-Size: 456
+MD5sum: e991cf255cd487401f17aa304479bf61
+Description: Framework to assist in providing feedback to developers.
+Name: TechSupport Framework
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Homepage: http://github.com/ashikase/TechSupport
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=techsupportData
+
+Package: net.limneos.bioprotect
+Version: 2.3-8
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), net.limneos.libbulletin
+Architecture: iphoneos-arm
+Filename: deb/net.limneos.bioprotect_2.3-8_iphoneos-arm.deb
+Size: 596078
+Installed-Size: 1812
+MD5sum: 6a120aa13ef06785af12ee2eb60a66fd
+Description: Protect your apps with Touch ID!
+Name: BioProtect
+Author: Elias Limneos <iphone@limneos.net>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bioprotectDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bioprotectDp
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/Icon.png
+
+Package: net.tateu.opennotifier11
+Version: 2.5.0~beta3
+Section: Tweaks
+Maintainer: tateu (Josh Harris) <tateu@tateu.net>
+Depends: firmware (>=11.0), mobilesubstrate, libstatus9 | libmoorecon | libstatusbar, preferenceloader, applist
+Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta, net.tateu.opennotifier9, net.tateu.opennotifier10
+Provides: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier
+Architecture: iphoneos-arm
+Filename: deb/net.tateu.opennotifier11_2.5.0~beta3_iphoneos-arm.deb
+Size: 99806
+Installed-Size: 1199
+MD5sum: 900b983d3aab3876e6c4cb1247d52097
+Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
+Name: OpenNotifier11 - tateu
+Author: tateu (based on n00neimp0rtant) <tateu@tateu.net>
+Depiction: http://www.tateu.net/repo/html/?p=opennotifier11
+
+Package: org.coolstar.cctools
+Version: 895
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: openssl, uuid, org.coolstar.ld64
+Conflicts: odcctools
+Provides: odcctools
+Architecture: iphoneos-arm
+Filename: deb/org.coolstar.cctools_895_iphoneos-arm.deb
+Size: 1288112
+Installed-Size: 11712
+MD5sum: 4c4a9a805db329a4af6a31e9fff3f971
+Description: tools to work with mach-o files
+Name: Darwin CC Tools
+Author: CoolStar <coolstarorganization@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=cctoolsDp
+
+Package: org.coolstar.ld64
+Version: 274.2
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.0)
+Architecture: iphoneos-arm
+Filename: deb/org.coolstar.ld64_274.2_iphoneos-arm.deb
+Size: 1517478
+Installed-Size: 8112
+MD5sum: cf4ca625ea60dfcacc07c2d2dc633ce2
+Description: linker for building on iOS
+Name: LD64
+Author: CoolStar <coolstarorganization@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ld64Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ld64Dp
+
+Package: org.coolstar.tweakinject
+Version: 1.0.6
+Section: System
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
+Architecture: iphoneos-arm
+Filename: deb/org.coolstar.tweakinject_1.0.6_iphoneos-arm.deb
+Size: 19214
+MD5sum: b2a66f99679aa137a39bc0f52f81cf3c
+Description: General purpose tweak loader with safe mode in case of crashes
+Name: Tweak Injector
+Author: CoolStar <coolstarorganization@gmail.com>
+
+Package: org.fwdr.sonus
+Version: 3.0.2-3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.9), com.rpetrich.rocketbootstrap (>= 1.0.2)
+Conflicts: io.github.himynameisubik.sonus
+Architecture: iphoneos-arm
+Filename: deb/org.fwdr.sonus_3.0.2-3_iphoneos-arm.deb
+Size: 113488
+Installed-Size: 846
+MD5sum: a01e92fd6e0278f45560f12722b28266
+Description: A better & highly customizable volume hud.
+Name: Sonus
+Author: ubik <sonus@fwdr.org>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sonusDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sonusDp
+Icon: file:///Library/PreferenceBundles/SonusPrefs.bundle/Images/Sonus@2x.png
+
+Package: org.thebigboss.libcolorpicker
+Version: 1.6-1
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/org.thebigboss.libcolorpicker_1.6-1_iphoneos-arm.deb
+Size: 71818
+Installed-Size: 376
+MD5sum: 325a27bae9d2809ed959f09885944a6b
+Description: color picker library for developers
+Name: libcolorpicker
+Author: PixelFire <pixelfiredev@helpful.io>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+
+Package: org.thebigboss.libstatus9
+Version: 1:0.0.1.5-1
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate,  firmware (>= 9.1), com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar, libmoorecon
+Provides: libstatusbar, libmoorecon
+Replaces: libstatusbar, libmoorecon
+Architecture: iphoneos-arm
+Filename: deb/org.thebigboss.libstatus9_0.0.1.5-1_iphoneos-arm.deb
+Size: 33124
+Installed-Size: 177
+MD5sum: 2e0f36cc6722089676a6af6353a609f6
+Description: Statusbar icon support for 9.1+
+Name: libstatus9
+Author: Rene Kahle <packetfahrer@web.de>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libstatus9Dp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libstatus9Dp
+
+Package: p7zip
+Version: 16.02
+Priority: optional
+Section: Archiving
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Architecture: iphoneos-arm
+Filename: deb/p7zip_16.02_iphoneos-arm.deb
+Size: 923898
+MD5sum: ac447826cc6651977fa09e2ad1cf259e
+Description: A port of 7za.exe for POSIX systems like Unix
+Name: 7-zip (POSIX)
+
+Package: perl
+Version: 5.26.1-6
+Section: Development
+Maintainer: Samuel Bingner
+Depends: firmware (>= 3.0)
+Conflicts: org.coolstar.perl
+Provides: org.coolstar.perl
+Replaces: org.coolstar.perl
+Architecture: iphoneos-arm
+Filename: deb/perl_5.26.1-6_iphoneos-arm.deb
+Size: 19054940
+Installed-Size: 117240
+MD5sum: 6b51997637a821aaeaa121e2c09925d5
+Description: Perl.  It's perl.
+Name: Perl
+Author: Samuel Bingner
+
+Package: pincrush
+Version: 0.9.2-2
+Section: Utilities
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Architecture: iphoneos-arm
+Filename: deb/pincrush_0.9.2-2_iphoneos-arm.deb
+Size: 93806
+MD5sum: c8768523be4db830b6a65d44d9e08ae2
+Description: optimize PNGs just like Apple does
+ pincrush is an open, cross-platform alternative to Apple's proprietary PNG mangler, to optimize PNGs for display on iPhoneOS devices.
+Name: pincrush
+Author: Dustin Howett <dustin@howett.net>
+Homepage: http://howett.net/pincrush
+
+Package: unzip
+Version: 6.0
+Priority: important
+Section: Archiving
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Architecture: iphoneos-arm
+Filename: deb/unzip_6.0_iphoneos-arm.deb
+Size: 74208
+MD5sum: 4d539faafa2d194d4ab0759dfb959156
+Description: de-compesses files in zip format
+
+Package: ws.hbang.common
+Version: 1.12
+Priority: optional
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: preferenceloader, mobilesubstrate, jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: deb/ws.hbang.common_1.12_iphoneos-arm.deb
+Size: 137674
+Installed-Size: 830
+MD5sum: 0a83745de1e421ef9e7bde48380be8c7
+Description: Support library for tweak settings
+Name: Cephei
+Author: HASHBANG Productions <support@hbang.ws>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangcommonDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=hashbangcommonDp
+
+Package: ws.hbang.newterm2
+Version: 2.0
+Section: Terminal Support
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Depends: firmware (>= 7.0), com.modmyi.libswift4 (>= 4.0.3-3), ws.hbang.common (>= 1.11.2), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm
+Replaces: ws.hbang.newterm
+Architecture: iphoneos-arm
+Filename: deb/ws.hbang.newterm2_2.0_iphoneos-arm.deb
+Size: 738608
+Installed-Size: 2192
+MD5sum: d24b9d6245042596ad242892f6cad45c
+Description: A powerful terminal app for iOS
+Name: NewTerm 2 (iOS 7 – 11)
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://cydia.hbang.ws/package/ws.hbang.newterm2/
+Icon: file:///Applications/NewTerm.app/Icon-Small@2x.png
+
+Package: zip
+Version: 3.0
+Priority: important
+Section: Archiving
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: cy+cpu.arm64
+Architecture: iphoneos-arm
+Filename: deb/zip_3.0_iphoneos-arm.deb
+Size: 97010
+MD5sum: 275be7a467b1befddb2e2f733a0b2893
+Description: standard Windows compression tool
 
