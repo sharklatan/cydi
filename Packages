@@ -336,6 +336,23 @@ Author: VitaTaf/MidnightChips/PINPAL
 Depiction: https://pinpal.github.io/package/HomeGesture/index.html
 Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
 
+Package: com.junesiphone.lockpluspro
+Architecture: iphoneos-arm
+Version: 1.2.7
+Section: Addons (Tweaks)
+Maintainer: June <junesgraphics@gmail.com>
+Installed-Size: 36068
+Depends: mobilesubstrate, preferenceloader
+Conflicts:
+Filename: .//com.junesiphone.lockpluspro_1.2.7_iphoneos-arm.deb
+Size: 11715276
+MD5sum: 225f45c3f63e70d9ddaff30b5df63c9a
+Description: The ultimate lock screen tweak!
+Tag: cydia::paid
+Name: LockPlus Pro
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/lockpluspro
+
 Package: jp.ashikase.libcrashreport
 Architecture: iphoneos-arm
 Version: 1.1.0-1
@@ -440,20 +457,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=crashrepor
 dev: ashikase
 Author: Lance Fetters (ashikase) <support@ashikase.com>
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: fun.ignition.fixbadiosbad
-Architecture: iphoneos-arm
-Version: 0.0.2
-Section: Tweaks
-Maintainer: Ignition
-Installed-Size: 104
-Depends: mobilesubstrate
-Filename: .//fun.ignition.fixbadiosbad_0.0.2_iphoneos-arm.deb
-Size: 2194
-MD5sum: 83439e4c6a258f74284c322080f3ed96
-Description: Remove our screw up.
-Name: fixbadiOSbad
-Author: Ignition
 
 Package: com.junesiphone.xenambreweather2
 Architecture: iphoneos-arm
@@ -695,6 +698,22 @@ Name: AdBlock for YouTube
 Depiction: http://repo.xarold.com/depiction.php?id=adblockforyoutube
 Author: Majd Alfhaily
 
+Package: com.vitataf.homegesture
+Architecture: iphoneos-arm
+Version: 1.7.8
+Section: Tweaks
+Maintainer: MidnightChips/PINPAL
+Installed-Size: 908
+Pre-Depends: com.spark.libsparkapplist
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker
+Filename: .//com.vitataf.homegesture_1.7.8_iphoneos-arm.deb
+Size: 745590
+MD5sum: b76db088cf722f2f150ab2a8e71f64c0
+Description: Enable iPhone X home gesture on other devices.
+Name: HomeGesture
+Author: VitaTaf/MidnightChips/PINPAL
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+
 Package: com.pxcex.cameramode10
 Architecture: iphoneos-arm
 Version: 2.0.0
@@ -908,21 +927,6 @@ MD5sum: 0815883d1fb09f0e5a5d4c2b5fb90e1f
 Description: A skeuomodern theme.
 Name: Mojito
 Author: Dennis Bednarz <Dennis.bednarz@outlook.com>
-
-Package: fun.ignition.badiosbad
-Architecture: iphoneos-arm
-Version: 1.2.1-debug
-Section: Tweaks
-Maintainer: Ignition
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: .//fun.ignition.badiosbad_1.2.1-debug_iphoneos-arm.deb
-Size: 6462
-MD5sum: 959ca47af2eac8d4f3c5ec861d786362
-Description: Block iOS System Updates from the core, Castrate installd to allow 7 day certificate signed IPAs to install OTA (only when in jailbroken state), removes the Feedback Assistant App, removes update badge and destroys app revokes!
-Name: badiOSBad
-Depiction: https://ignition.fun/repo/depictions/badiOSbad.html
-Author: Ignition
 
 Package: jp.ashikase.libpackageinfo
 Architecture: iphoneos-arm
@@ -1219,19 +1223,6 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 Author: AnemoneTeam <anemonetheming@gmail.com>
 dev: anemonetheming
 Icon: file:///Applications/Anemone.app/icon.png
-
-Package: com.yourepo.kiiimo.libb
-Architecture: iphoneos-arm
-Version: 1.0.2
-Section: Development
-Depends: firmware (>= 8.0), com.rpetrich.rocketbootstrap
-Filename: .//com.yourepo.kiiimo.libb_1.0.2_iphoneos-arm.deb
-Size: 7070186
-MD5sum: 3395339b6111a0281e1259518e507923
-Description: A library used by Rocket tweak
-Name: libRocket
-Depiction: http://cydia.kiiimo.org/pack/libb
-Author: Majd Alfhaily
 
 Package: me.alfhaily.cercube
 Architecture: iphoneos-arm
