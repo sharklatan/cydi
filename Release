@@ -1,20 +1,11 @@
 Origin: Shark Repo
-
 Label: JonaiPhone Official Repo
-
 Suite: stable
-
-Version: 0.1
-
+Version: 1.0
 Codename: iOS
-
-Architectures: iphoneos-arm
-
+Architecture: iphoneos-arm
 Components: main
-
 Description: JonaiPhone Official Repo
-
 MD5Sum:
-a03ad41191aab8522158b96d68b828a4 49430 Packages
-a4c61baa81e517a05cf545c53ca4f2d1 11621 Packages.gz
-7652d51132f991138bb81e79a8300865 10941 Packages.bz2
+ 8613cdafe146f8427d1e676ab5781e23 56614 Packages
+ b26fc349c8616fda12cb2775248ef48f 11676 Packages.bz2

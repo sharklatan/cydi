@@ -5,7 +5,7 @@ Maintainer: Ryan Petrich <rpetrich@gmail.com>
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.6~beta) | firmware (<< 7.0)
 Conflicts: com.a3tweaks.polus (<< 2.0.7)
 Architecture: iphoneos-arm
-Filename: deb/applist_1.5.14_iphoneos-arm.deb
+Filename: ./deb/applist_1.5.14_iphoneos-arm.deb
 Size: 93312
 Installed-Size: 600
 MD5sum: abca7f0b846e9a2b286043d485635973
@@ -22,7 +22,7 @@ Section: Terminal_Support
 Maintainer: Samuel Bingner
 Depends: grep, ncurses, sed
 Architecture: iphoneos-arm
-Filename: deb/bash_4.4.18-2_iphoneos-arm.deb
+Filename: ./deb/bash_4.4.18-2_iphoneos-arm.deb
 Size: 859098
 Installed-Size: 6612
 MD5sum: e754d5f73b9b989858ac5e2fa218dfb1
@@ -37,7 +37,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Filename: deb/bz.jed.tweakcompatible_0.0.7_iphoneos-arm.deb
+Filename: ./deb/bz.jed.tweakcompatible_0.0.7_iphoneos-arm.deb
 Size: 18034
 Installed-Size: 136
 MD5sum: 4c9d29ccc7dd8cca0ce5fc138dbbe023
@@ -53,7 +53,7 @@ Section: Utilities
 Maintainer: Jamie Bishop <jamie@dynastic.co>
 Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
 Architecture: iphoneos-arm
-Filename: deb/co.dynastic.tsssaver_1.2.0_iphoneos-arm.deb
+Filename: ./deb/co.dynastic.tsssaver_1.2.0_iphoneos-arm.deb
 Size: 151996
 Installed-Size: 444
 MD5sum: bc033c8df65575079edb87b23907ed78
@@ -69,7 +69,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
 Architecture: iphoneos-arm
-Filename: deb/co.vexation.nosubstitute_1.0-1_iphoneos-arm.deb
+Filename: ./deb/co.vexation.nosubstitute_1.0-1_iphoneos-arm.deb
 Size: 8854
 Installed-Size: 155
 MD5sum: 30b0ea6ba4b4dc4b8d5305e680a7c24f
@@ -87,7 +87,7 @@ Section: Tweaks
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: firmware (>= 4.2), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/com.alexzielenski.zeppelin_2.1.0-12_iphoneos-arm.deb
+Filename: ./deb/com.alexzielenski.zeppelin_2.1.0-12_iphoneos-arm.deb
 Size: 903890
 MD5sum: 32485acccda244610610556080de81e4
 Description: Replaces carrier text with an image!
@@ -96,6 +96,27 @@ Author: Alex Zielenski <support@alexzielenski.com>
 Homepage: http://modmyi.com/info/zeppelin.php
 Depiction: http://modmyi.com/info/zeppelin.d.php
 Icon: http://i.imgur.com/tvLxnB5.png
+
+Package: com.anemonetheming.anemone
+Version: 2.1.7-7
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
+Architecture: iphoneos-arm
+Filename: ./deb/com.anemonetheming.anemone_2.1.7-7_iphoneos-arm.deb
+Size: 1878968
+Installed-Size: 8411
+MD5sum: 847ce61aa720e44dedb85dacfd2e17ec
+Description: An awesome theme manager!
+Name: Anemone
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
+Icon: file:///Applications/Anemone.app/icon.png
 
 Package: com.anemonetheming.anemone
 Version: 2.1.8-1
@@ -107,7 +128,7 @@ Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethem
 Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
 Architecture: iphoneos-arm
-Filename: deb/com.anemonetheming.anemone_2.1.8-1_iphoneos-arm.deb
+Filename: ./deb/com.anemonetheming.anemone_2.1.8-1_iphoneos-arm.deb
 Size: 1869010
 Installed-Size: 8312
 MD5sum: 845beb761f8dfb93594cd9c0acfcf629
@@ -124,7 +145,7 @@ Section: Tweaks
 Maintainer: CP Digital Darkroom <admin@cpdigitaldarkroom.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/com.cpdigitaldarkroom.barmoji_1.0_iphoneos-arm.deb
+Filename: ./deb/com.cpdigitaldarkroom.barmoji_1.0_iphoneos-arm.deb
 Size: 6132
 Installed-Size: 72
 MD5sum: 8c9630f863332c9d51b57ebf7f12aeb6
@@ -139,7 +160,7 @@ Section: System
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 8.0), cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: deb/com.ex.libsubstitute_0.0.6-coolstar_iphoneos-arm.deb
+Filename: ./deb/com.ex.libsubstitute_0.0.6-coolstar_iphoneos-arm.deb
 Size: 20436
 MD5sum: 930993acbba4cf4e819ec80aab155e3a
 Description: Substrate substitute for code substitution (library only)
@@ -153,7 +174,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist, com.rpetrich.rocketbootstrap, com.f0u4d.watusitools (>= 1.4.11)
 Conflicts: com.f0u4d.onlinenotifybeta, com.f0u4d.onlinenotify2, com.imokhles.waquickreply.bb
 Architecture: iphoneos-arm
-Filename: deb/com.f0u4d.onlinenotify_2.3.19_iphoneos-arm.deb
+Filename: ./deb/com.f0u4d.onlinenotify_2.3.19_iphoneos-arm.deb
 Size: 364480
 Installed-Size: 1613
 MD5sum: a96219daa253b2bd3ed578193222acdc
@@ -171,7 +192,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 8.0)
 Conflicts: repo.biteyourapple.net.watusi, repo.biteyourapple.net.onlinenotify, com.hackyouriphone.onlinenotify, com.yourepo.kiiimo.onlinenotify, net.cydia00.onlinenotify22
 Architecture: iphoneos-arm
-Filename: deb/com.f0u4d.watusitools_1.4.11_iphoneos-arm.deb
+Filename: ./deb/com.f0u4d.watusitools_1.4.11_iphoneos-arm.deb
 Size: 6914756
 Installed-Size: 30412
 MD5sum: d684e0e785b54f48ce50391eab9f41e9
@@ -188,7 +209,7 @@ Section: Tweaks
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/com.fortysixandtwo.alkaline_1.3_iphoneos-arm.deb
+Filename: ./deb/com.fortysixandtwo.alkaline_1.3_iphoneos-arm.deb
 Size: 145556
 MD5sum: bf3cb4d495c31ddbfb18753aed0561cb
 Description: Themeable status bar battery replacement for iOS 7.
@@ -205,7 +226,7 @@ Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com
 Conflicts: com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools, com.hackyouriphone.watusitools
 Replaces: org.thebigboss.watusi
 Architecture: iphoneos-arm
-Filename: deb/com.fouadraheb.watusi_1.0.52_iphoneos-arm.deb
+Filename: ./deb/com.fouadraheb.watusi_1.0.52_iphoneos-arm.deb
 Size: 2478150
 Installed-Size: 11112
 MD5sum: a9d9a63df2f9c89c855220dde7ca64b4
@@ -222,7 +243,7 @@ Section: HYI - Tweaks
 Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/com.hackyouriphone.noslowanimationsxibeta_2.0_iphoneos-arm.deb
+Filename: ./deb/com.hackyouriphone.noslowanimationsxibeta_2.0_iphoneos-arm.deb
 Size: 18112
 MD5sum: f9b350075f4e8c021b07e43836c7a4e8
 Description: Don’t get slowed down by Animations on IOS 11!
@@ -238,7 +259,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware(>= 11.0), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm
-Filename: deb/com.imkpatil.floatingdock_1.3_iphoneos-arm.deb
+Filename: ./deb/com.imkpatil.floatingdock_1.3_iphoneos-arm.deb
 Size: 31896
 Installed-Size: 270
 MD5sum: db93bff7fb8fdbd2931d96bc68f8bbfe
@@ -255,7 +276,7 @@ Section: Tweaks
 Maintainer: Kiran Patil
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/com.imkpatil.spotcc_0.0.9-1+debug_iphoneos-arm.deb
+Filename: ./deb/com.imkpatil.spotcc_0.0.9-1+debug_iphoneos-arm.deb
 Size: 3382
 Installed-Size: 120
 MD5sum: b505d066249a50d07083b388c87ab55d
@@ -270,7 +291,7 @@ Section: Tweaks
 Maintainer: iOS Creatix
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/com.ioscreatix.littlex_1.3.7_iphoneos-arm.deb
+Filename: ./deb/com.ioscreatix.littlex_1.3.7_iphoneos-arm.deb
 Size: 27686
 Installed-Size: 236
 MD5sum: 789f9fe786a69691a9eb59f574c9d857
@@ -284,7 +305,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Filename: deb/com.jakeashacks.realcc_1.0.1_iphoneos-arm.deb
+Filename: ./deb/com.jakeashacks.realcc_1.0.1_iphoneos-arm.deb
 Size: 3758
 Installed-Size: 76
 MD5sum: 24dd2692dac1b7e09d5497f240f77b05
@@ -300,7 +321,7 @@ Section: Utilities
 Maintainer: Julio
 Depends: ldid (>= 1:1.2.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
 Architecture: iphoneos-arm
-Filename: deb/com.julioverne.cracktool3_3.0~beta3_iphoneos-arm.deb
+Filename: ./deb/com.julioverne.cracktool3_3.0~beta3_iphoneos-arm.deb
 Size: 98680
 MD5sum: aee437f5fa35d0600a952b67428ba8fb
 Description: Crack Tweaks on one click. arm64
@@ -316,7 +337,7 @@ Pre-Depends: ldid, unzip, coreutils, zip, sed
 Depends: mobilesubstrate
 Conflicts: com.julioverne.ext3nder
 Architecture: iphoneos-arm
-Filename: deb/com.julioverne.ext3nder-installer_021a_iphoneos-arm.deb
+Filename: ./deb/com.julioverne.ext3nder-installer_021a_iphoneos-arm.deb
 Size: 458136
 MD5sum: 6f85c09c63b6befd1652b4f69d026264
 Description: Cydia Extender Installer With Extra Features
@@ -326,16 +347,48 @@ Homepage: http://twitter.com/ijulioverne
 Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ext3nder-installer
 
 Package: com.junesiphone.lockpluspro
+Version: 1.2.6
+Section: Addons (Tweaks)
+Maintainer: June <junesgraphics@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: ./deb/com.junesiphone.lockpluspro_1.2.6_iphoneos-arm.deb
+Size: 11543830
+Installed-Size: 36044
+MD5sum: f36a29d6829b4040ad6d443e99573ee3
+Description: The ultimate lock screen tweak!
+Name: LockPlus Pro
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/lockpluspro
+
+Package: com.junesiphone.lockpluspro
 Version: 1.2.7
 Section: Addons (Tweaks)
 Maintainer: June <junesgraphics@gmail.com>
 Depends: mobilesubstrate, preferenceloader
 Conflicts: 
 Architecture: iphoneos-arm
-Filename: deb/com.junesiphone.lockpluspro_1.2.7_iphoneos-arm.deb
+Filename: ./deb/com.junesiphone.lockpluspro_1.2.7_iphoneos-arm.deb
 Size: 11715276
 Installed-Size: 36068
 MD5sum: 225f45c3f63e70d9ddaff30b5df63c9a
+Description: The ultimate lock screen tweak!
+Name: LockPlus Pro
+Author: JunesiPhone <junesgraphics@gmail.com>
+Depiction: http://www.junesiphone.com/supersecret/depiction.php?iframe=depiction/lockpluspro
+
+Package: com.junesiphone.lockpluspro
+Version: 1.2.5
+Section: Addons (Tweaks)
+Maintainer: June <junesgraphics@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Conflicts: 
+Architecture: iphoneos-arm
+Filename: ./deb/com.junesiphone.lockpluspro_1.2.5_iphoneos-arm.deb
+Size: 11547716
+Installed-Size: 36044
+MD5sum: 287ecf67e70f1e0fd2fe95b70961c326
 Description: The ultimate lock screen tweak!
 Name: LockPlus Pro
 Author: JunesiPhone <junesgraphics@gmail.com>
@@ -348,7 +401,7 @@ Maintainer: June <junesgraphics@gmail.com>
 Depends: 
 Conflicts: 
 Architecture: iphoneos-arm
-Filename: deb/com.junesiphone.xenambreweather1_0.0.1_iphoneos-arm.deb
+Filename: ./deb/com.junesiphone.xenambreweather1_0.0.1_iphoneos-arm.deb
 Size: 934748
 MD5sum: c0743e795183a9c47d35cb8da94254d9
 Description: Weather Widget for Ambre (Uses XenInfo)
@@ -363,7 +416,7 @@ Maintainer: June <junesgraphics@gmail.com>
 Depends: 
 Conflicts: 
 Architecture: iphoneos-arm
-Filename: deb/com.junesiphone.xenambreweather2_0.0.1_iphoneos-arm.deb
+Filename: ./deb/com.junesiphone.xenambreweather2_0.0.1_iphoneos-arm.deb
 Size: 1429864
 MD5sum: d94c87e3c68ebdef42ba7dbf0fab3e40
 Description: Weather Widget for Ambre (Uses XenInfo)
@@ -377,7 +430,7 @@ Section: System
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: profile.d
 Architecture: iphoneos-arm
-Filename: deb/com.linusyang.localeutf8_1.0-1_iphoneos-arm.deb
+Filename: ./deb/com.linusyang.localeutf8_1.0-1_iphoneos-arm.deb
 Size: 5486
 Installed-Size: 186
 MD5sum: 474ebfeb2d8140fecf0531b53f22b0ec
@@ -393,7 +446,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 7.0)
 Architecture: iphoneos-arm
-Filename: deb/com.modmyi.libswift4_4.1.2-1_iphoneos-arm.deb
+Filename: ./deb/com.modmyi.libswift4_4.1.2-1_iphoneos-arm.deb
 Size: 11155024
 Installed-Size: 88311
 MD5sum: 95a3c80977414612e58d89d42787bd31
@@ -411,7 +464,7 @@ Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: com.n00neimp0rtant.opennotifier
 Conflicts: com.n00neimp0rtant.opennotifier.bluearrows, com.n00neimp0rtant.opennotifier.boxcarlogos, com.n00neimp0rtant.opennotifier.brownarrows, com.n00neimp0rtant.opennotifier.checkmark, com.n00neimp0rtant.opennotifier.chesspiece, com.n00neimp0rtant.opennotifier.espnlogo, com.n00neimp0rtant.opennotifier.facebooklogo, com.n00neimp0rtant.opennotifier.googlevoicelogo, com.n00neimp0rtant.opennotifier.kiklogo, com.n00neimp0rtant.opennotifier.rsslogo, com.n00neimp0rtant.opennotifier.smiley, com.n00neimp0rtant.opennotifier.sportacularlogo, com.n00neimp0rtant.opennotifier.textielogo, com.n00neimp0rtant.opennotifier.twitterlogos, com.n00neimp0rtant.opennotifier.whatsapplogo, com.n00neimp0rtant.opennotifier.wordswithfriendslogo
 Architecture: iphoneos-arm
-Filename: deb/com.modmyi.opennotifierpremiumpack_1.3.1_iphoneos-arm.deb
+Filename: ./deb/com.modmyi.opennotifierpremiumpack_1.3.1_iphoneos-arm.deb
 Size: 252280
 MD5sum: 282f3b0b9d5286031f6c0e64e5f30e57
 Description: The official premium pack for OpenNotifier
@@ -428,7 +481,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate, firmware (>= 11.0)
 Conflicts: com.neinzedd9.percentagecirclex
 Architecture: iphoneos-arm
-Filename: deb/com.neinzedd9.percentagebatteryx_1.0.2_iphoneos-arm.deb
+Filename: ./deb/com.neinzedd9.percentagebatteryx_1.0.2_iphoneos-arm.deb
 Size: 5062
 Installed-Size: 116
 MD5sum: 2664921fef1e9666d90b0beed18d56bf
@@ -445,7 +498,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate, firmware (>= 10.0)
 Architecture: iphoneos-arm
-Filename: deb/com.pxcex.cameramode10_2.0.0_iphoneos-arm.deb
+Filename: ./deb/com.pxcex.cameramode10_2.0.0_iphoneos-arm.deb
 Size: 3510
 Installed-Size: 115
 MD5sum: 8470f7aef510d63efbaa44135b610e20
@@ -462,7 +515,7 @@ Maintainer: ReddestDream <reddestdream@gmail.com>
 Pre-Depends: dpkg (>= 1.13.25-5)
 Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic, com.reddestdream.minimalhostsblocker
 Architecture: iphoneos-arm
-Filename: deb/com.reddestdream.mhbcb_1.3_iphoneos-arm.deb
+Filename: ./deb/com.reddestdream.mhbcb_1.3_iphoneos-arm.deb
 Size: 2390
 MD5sum: 5c728e3db4e616a26632cb35681f57a8
 Description: Minimal Hosts to be used with a Content Blocker! ^_^
@@ -477,7 +530,7 @@ Maintainer: ReddestDream <reddestdream@gmail.com>
 Pre-Depends: dpkg (>= 1.13.25-5)
 Conflicts: com.thireus.untrustedhostsblockerexperimental, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblocker, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic
 Architecture: iphoneos-arm
-Filename: deb/com.reddestdream.minimalhostsblocker_7.3_iphoneos-arm.deb
+Filename: ./deb/com.reddestdream.minimalhostsblocker_7.3_iphoneos-arm.deb
 Size: 5574
 MD5sum: 7ee7a78652a95b95508af5908f4780b0
 Description: A Minimal Ad Blocker! ^_^
@@ -491,7 +544,7 @@ Section: Tweaks
 Maintainer: Xarold <contact@xarold.com>
 Depends: firmware (>= 8.0)
 Architecture: iphoneos-arm
-Filename: deb/com.repo.xarold.com.adblockforyoutube_1.0.7_iphoneos-arm.deb
+Filename: ./deb/com.repo.xarold.com.adblockforyoutube_1.0.7_iphoneos-arm.deb
 Size: 31784
 MD5sum: bf1111a601c8b50ca3fc044e19952d12
 Description: Block YouTube Ads and Video Ads
@@ -505,7 +558,7 @@ Section: Tweaks
 Maintainer: Xarold <contact@xarold.com>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), net.limneos.libbulletin
 Architecture: iphoneos-arm
-Filename: deb/com.repo.xarold.com.bioprotect_2.3-8_iphoneos-arm.deb
+Filename: ./deb/com.repo.xarold.com.bioprotect_2.3-8_iphoneos-arm.deb
 Size: 595634
 MD5sum: 069c4da28040694b950682f531b4d394
 Description: Protect your apps with Touch ID!
@@ -520,7 +573,7 @@ Section: Tweaks
 Depends: firmware (>= 8.0), mobilesubstrate, com.repo.xarold.com.adblockforyoutube, com.rpetrich.rocketbootstrap, com.repo.xarold.com.cercubelib (>= 1.0.6)
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.repo.xarold.com.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2
 Architecture: iphoneos-arm
-Filename: deb/com.repo.xarold.com.cercube4_4.1.3k_iphoneos-arm.deb
+Filename: ./deb/com.repo.xarold.com.cercube4_4.1.3k_iphoneos-arm.deb
 Size: 3603002
 MD5sum: b11c82c4f828fba68e542d5b8a7bf565
 Description: Download YouTube videos and more!
@@ -534,7 +587,7 @@ Version: 1.0.6
 Section: Development
 Depends: firmware (>= 8.0)
 Architecture: iphoneos-arm
-Filename: deb/com.repo.xarold.com.cercubelib_1.0.6_iphoneos-arm.deb
+Filename: ./deb/com.repo.xarold.com.cercubelib_1.0.6_iphoneos-arm.deb
 Size: 4843262
 MD5sum: b332e3f2cef37e569e457ecb06e5999f
 Description: A library used by Cercube tweak
@@ -548,7 +601,7 @@ Section: Tweaks
 Maintainer: Xarold <contact@xarold.com>
 Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/com.repo.xarold.com.cydown_6.9.5_iphoneos-arm.deb
+Filename: ./deb/com.repo.xarold.com.cydown_6.9.5_iphoneos-arm.deb
 Size: 1066150
 MD5sum: fb7d84c0ff46e102e6defc5faf1e507f
 Description: Cydia Download Manager & Extra Features!
@@ -563,7 +616,7 @@ Section: Utilities
 Maintainer: Xarold <contact@xarold.com>
 Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
 Architecture: iphoneos-arm
-Filename: deb/com.repo.xarold.com.filzajailed_3.3.3_iphoneos-arm.deb
+Filename: ./deb/com.repo.xarold.com.filzajailed_3.3.3_iphoneos-arm.deb
 Size: 10627416
 MD5sum: daa1a42bc7467abe22a52fe5e46beb73
 Description: Filza File for iOS 11
@@ -579,7 +632,7 @@ Maintainer: Xarold <contact@xarold.com>
 Depends: firmware (>= 4.0), apt7, findutils, shell-cmds
 Conflicts: org.altervista.exilecom.icleaner
 Architecture: iphoneos-arm
-Filename: deb/com.repo.xarold.com.icleanerpro_7.7.0k_iphoneos-arm.deb
+Filename: ./deb/com.repo.xarold.com.icleanerpro_7.7.0k_iphoneos-arm.deb
 Size: 6936958
 MD5sum: 0f086f76facd6bd7376770fc929f82ea
 Description: The first real iOS system cleaner & optimizer
@@ -593,7 +646,7 @@ Version: 1.4-2
 Section: Tweaks
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/com.repo.xarold.com.localiapstore_1.4-2_iphoneos-arm.deb
+Filename: ./deb/com.repo.xarold.com.localiapstore_1.4-2_iphoneos-arm.deb
 Size: 42228
 MD5sum: 00dacf6f0f008f4e831e634a65b64b00
 Description: Pwns In-App purchases on iOS 5.1.1 - 7.1.X. Compatible with ARMv8 (64 Bit). Enable in settings. PRESS 'DISMISS' ON POPUP!
@@ -607,7 +660,7 @@ Section: Tweaks
 Maintainer: Xarold <contact@xarold.com>
 Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/com.repo.xarold.com.shortlook_1.0.1_iphoneos-arm.deb
+Filename: ./deb/com.repo.xarold.com.shortlook_1.0.1_iphoneos-arm.deb
 Size: 1631572
 MD5sum: cd2714a7d1dd7bce7b8a7d6c56f699ee
 Description: ShortLook shows you your notifications at a glance. ShortLook displays on your locked iPhone as you receive a notification using it's beautiful full screen design, allowing for readability from a distance. Made to be as unobtrusive as possible, it dismisses as soon as you tap the screen or Raise to Wake. It's configurable UI and behaviours ensure that ShortLook works how you want it to work.
@@ -621,7 +674,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
 Architecture: iphoneos-arm
-Filename: deb/com.rpetrich.rocketbootstrap_1.0.6_iphoneos-arm.deb
+Filename: ./deb/com.rpetrich.rocketbootstrap_1.0.6_iphoneos-arm.deb
 Size: 29514
 Installed-Size: 504
 MD5sum: c10a8344cb7e5932000e3efaaa632b7e
@@ -637,7 +690,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware(>= 8.0), mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
-Filename: deb/com.shmoopillc.flexible_1.6.0_iphoneos-arm.deb
+Filename: ./deb/com.shmoopillc.flexible_1.6.0_iphoneos-arm.deb
 Size: 513930
 Installed-Size: 5240
 MD5sum: c277bedf940c81d96fedf01ef71b99e6
@@ -654,7 +707,7 @@ Section: Tweaks
 Maintainer: Spark
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/com.spark.batterypercentx_1.2.1-1_iphoneos-arm.deb
+Filename: ./deb/com.spark.batterypercentx_1.2.1-1_iphoneos-arm.deb
 Size: 190692
 Installed-Size: 668
 MD5sum: dc929eaa0aea4b7083fea189e80cf279
@@ -669,7 +722,7 @@ Section: Tweaks
 Maintainer: Spark
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/com.spark.easyswitcherx_0.0.4-5_iphoneos-arm.deb
+Filename: ./deb/com.spark.easyswitcherx_0.0.4-5_iphoneos-arm.deb
 Size: 52158
 Installed-Size: 308
 MD5sum: 438ba67ccc777f303ba9792422a8497d
@@ -683,7 +736,7 @@ Section: Tweaks
 Maintainer: Spark
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/com.spark.laetus_0.0.1-108_iphoneos-arm.deb
+Filename: ./deb/com.spark.laetus_0.0.1-108_iphoneos-arm.deb
 Size: 84476
 Installed-Size: 616
 MD5sum: a1e266413a5e22c50c0880c167e8aba8
@@ -697,7 +750,7 @@ Section: Tweaks
 Maintainer: Spark
 Depends: mobilesubstrate, com.spark.libsparkapplist
 Architecture: iphoneos-arm
-Filename: deb/com.spark.nomoresmallapps_0.0.2_iphoneos-arm.deb
+Filename: ./deb/com.spark.nomoresmallapps_0.0.2_iphoneos-arm.deb
 Size: 18748
 Installed-Size: 208
 MD5sum: c354d7245e94b0ebd6d0aebd3a12792b
@@ -712,7 +765,7 @@ Section: Utilities
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
 Architecture: iphoneos-arm
-Filename: deb/com.tigisoftware.filza_3.5.2-1_iphoneos-arm.deb
+Filename: ./deb/com.tigisoftware.filza_3.5.2-1_iphoneos-arm.deb
 Size: 10019646
 Installed-Size: 30280
 MD5sum: 439b0381d6ccd3f3b91762b78587132f
@@ -724,19 +777,96 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilem
 Icon: file:///Applications/Filza.app/AppIcon57x57.png
 
 Package: com.vitataf.homegesture
+Version: 1.4
+Section: Tweaks
+Maintainer: MidnightChips
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./deb/com.vitataf.homegesture_1.4_iphoneos-arm.deb
+Size: 4230
+Installed-Size: 120
+MD5sum: 3218c9c0242eaaf749df66c45d451af9
+Description: Enable iPhone X home gesture on other devices.
+Name: HomeGesture
+Author: VitaTaf
+
+Package: com.vitataf.homegesture
+Version: 1.5-5+debug
+Section: Tweaks
+Maintainer: MidnightChips/PINPAL
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./deb/com.vitataf.homegesture_1.5-5+debug_iphoneos-arm.deb
+Size: 6780
+Installed-Size: 132
+MD5sum: af320b96ce2986a79e51de6009f91887
+Description: Enable iPhone X home gesture on other devices.
+Name: HomeGesture
+Author: VitaTaf/MidnightChips/PINPAL
+Depiction: https://pinpal.github.io/package/HomeGesture/index.html
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+
+Package: com.vitataf.homegesture
 Version: 1.7.8
 Section: Tweaks
 Maintainer: MidnightChips/PINPAL
 Pre-Depends: com.spark.libsparkapplist
 Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm
-Filename: deb/com.vitataf.homegesture_1.7.8_iphoneos-arm.deb
+Filename: ./deb/com.vitataf.homegesture_1.7.8_iphoneos-arm.deb
 Size: 745590
 Installed-Size: 908
 MD5sum: b76db088cf722f2f150ab2a8e71f64c0
 Description: Enable iPhone X home gesture on other devices.
 Name: HomeGesture
 Author: VitaTaf/MidnightChips/PINPAL
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+
+Package: com.vitataf.homegesture
+Version: 1.7.3
+Section: Tweaks
+Maintainer: MidnightChips/PINPAL
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Architecture: iphoneos-arm
+Filename: ./deb/com.vitataf.homegesture_1.7.3_iphoneos-arm.deb
+Size: 814266
+Installed-Size: 984
+MD5sum: 04552fc30a24e890750d623c9d1909a8
+Description: Enable iPhone X home gesture on other devices.
+Name: HomeGesture
+Author: VitaTaf/MidnightChips/PINPAL
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+
+Package: com.vitataf.homegesture
+Version: 1.7
+Section: Tweaks
+Maintainer: MidnightChips/PINPAL
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Architecture: iphoneos-arm
+Filename: ./deb/com.vitataf.homegesture_1.7_iphoneos-arm.deb
+Size: 814124
+Installed-Size: 984
+MD5sum: 39c567017e1e66abd98e0ad2d1c5b90d
+Description: Enable iPhone X home gesture on other devices.
+Name: HomeGesture
+Author: VitaTaf/MidnightChips/PINPAL
+Depiction: https://pinpal.github.io/package/HomeGesture/index.html
+Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
+
+Package: com.vitataf.homegesture
+Version: 1.6-2+debug
+Section: Tweaks
+Maintainer: MidnightChips/PINPAL
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./deb/com.vitataf.homegesture_1.6-2+debug_iphoneos-arm.deb
+Size: 6364
+Installed-Size: 128
+MD5sum: 41b9104400a47e9fab3d0d4db179f258
+Description: Enable iPhone X home gesture on other devices.
+Name: HomeGesture
+Author: VitaTaf/MidnightChips/PINPAL
+Depiction: https://pinpal.github.io/package/HomeGesture/index.html
 Icon: https://cdn.discordapp.com/attachments/418170831592488972/465268776091254815/icon.png
 
 Package: com.xcxiao.simplelsios10
@@ -746,7 +876,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/com.xcxiao.simplelsios10_1.3.1_iphoneos-arm.deb
+Filename: ./deb/com.xcxiao.simplelsios10_1.3.1_iphoneos-arm.deb
 Size: 132816
 Installed-Size: 670
 MD5sum: 77a373fcad645dad138246b0de957f1a
@@ -762,7 +892,7 @@ Version: 1.0.9
 Section: Development
 Depends: firmware (>= 8.0)
 Architecture: iphoneos-arm
-Filename: deb/com.yourepo.kiiimo.lib_1.0.9_iphoneos-arm.deb
+Filename: ./deb/com.yourepo.kiiimo.lib_1.0.9_iphoneos-arm.deb
 Size: 4669022
 MD5sum: 4fdc5cbfebfd98f1c3795d1235f9211a
 Description: A library used by Cercube tweak
@@ -777,7 +907,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Pre-Depends: firmware (>=4.0)
 Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/crash-reporter_1.16.0-1_iphoneos-arm.deb
+Filename: ./deb/crash-reporter_1.16.0-1_iphoneos-arm.deb
 Size: 254918
 Installed-Size: 1460
 MD5sum: 9799a244ef92c2739b01d917971fbe38
@@ -795,7 +925,7 @@ Maintainer: CoolStar <coolstarorganization@gmail.com>
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: deb/darwintools_1-6_iphoneos-arm.deb
+Filename: ./deb/darwintools_1-6_iphoneos-arm.deb
 Size: 5500
 MD5sum: 77ee3394d0b38184098497270ec33d56
 Description: startupfiletool, sw_vers
@@ -807,10 +937,36 @@ Section: Themes
 Maintainer: Dennis Bednarz <Dennis.bednarz@outlook.com>
 Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
 Architecture: iphoneos-arm
-Filename: deb/eu.bednarz.eyeris_1.2_iphoneos-arm.deb
+Filename: ./deb/eu.bednarz.eyeris_1.2_iphoneos-arm.deb
 Size: 1834688
 MD5sum: 506df4973a78f9657e281c5f117989cd
 Description: A skeuomodern theme.
+Name: Mojito
+Author: Dennis Bednarz <Dennis.bednarz@outlook.com>
+
+Package: eu.bednarz.eyeris
+Version: 1.1
+Section: Themes
+Maintainer: Dennis Bednarz <Dennis.bednarz@outlook.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./deb/eu.bednarz.eyeris_1.1_iphoneos-arm.deb
+Size: 1718152
+MD5sum: 0815883d1fb09f0e5a5d4c2b5fb90e1f
+Description: A skeuomodern theme.
+Name: Mojito
+Author: Dennis Bednarz <Dennis.bednarz@outlook.com>
+
+Package: eu.bednarz.eyeris
+Version: 1.0
+Section: Themes
+Maintainer: Dennis Bednarz <Dennis.bednarz@outlook.com>
+Depends: firmware (>= 7.0), com.anemonetheming.anemone
+Architecture: iphoneos-arm
+Filename: ./deb/eu.bednarz.eyeris_1.0_iphoneos-arm.deb
+Size: 1966794
+MD5sum: 9886bd80dadfcf7d1f577242a2994dc6
+Description: A magnificient theme.
 Name: Mojito
 Author: Dennis Bednarz <Dennis.bednarz@outlook.com>
 
@@ -820,7 +976,7 @@ Section: Utilities
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Filename: deb/fr.lululombard.certremaintime_2.3.4-2_iphoneos-arm.deb
+Filename: ./deb/fr.lululombard.certremaintime_2.3.4-2_iphoneos-arm.deb
 Size: 506562
 Installed-Size: 864
 MD5sum: 83fa0f2017e3d999171c993c4fbd3373
@@ -837,11 +993,25 @@ Section: Tweaks
 Maintainer: Ignition
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/fun.ignition.badiosbad_1.1.9_iphoneos-arm.deb
+Filename: ./deb/fun.ignition.badiosbad_1.1.9_iphoneos-arm.deb
 Size: 7546
 Installed-Size: 120
 MD5sum: b50a856b4ae119786419b97ba0230b8d
 Description: Block iOS System Updates from the core, Castrate installd to allow 7 day certificate signed IPAs to install OTA (only when in jailbroken state), removes the Feedback Assistant App and destroys app revokes!
+Name: badiOSBad
+Author: Ignition
+
+Package: fun.ignition.badiosbad
+Version: 1.0.5
+Section: Tweaks
+Maintainer: Ignition
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./deb/fun.ignition.badiosbad_1.0.5_iphoneos-arm.deb
+Size: 2906
+Installed-Size: 104
+MD5sum: 3a1fd3c4ec584f7ccf01de1d7dc908dc
+Description: Block iOS System Updates from the core and destroy app revokes!
 Name: badiOSBad
 Author: Ignition
 
@@ -851,7 +1021,7 @@ Section: Development
 Maintainer: shark
 Depends: firmware (>= 8.0), com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm
-Filename: deb/io.sharklatan.libb_1.0.2_iphoneos-arm.deb
+Filename: ./deb/io.sharklatan.libb_1.0.2_iphoneos-arm.deb
 Size: 4967728
 MD5sum: 48e62623b1b48a705e55de2d1c97955c
 Description: A library used by Rocket tweak
@@ -865,7 +1035,7 @@ Section: Tweaks
 Maintainer: Michele Primavera <support@dreamcode.it>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/it.dreamcode.picobanners2_0.0.1b2_iphoneos-arm.deb
+Filename: ./deb/it.dreamcode.picobanners2_0.0.1b2_iphoneos-arm.deb
 Size: 19360
 Installed-Size: 108
 MD5sum: c51e5eaa71c34e5952499d6677cd886a
@@ -880,7 +1050,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Pre-Depends: firmware (>= 3.0)
 Depends: jp.ashikase.libsymbolicate (>= 1.9.0), jp.ashikase.libpackageinfo
 Architecture: iphoneos-arm
-Filename: deb/jp.ashikase.libcrashreport_1.1.0-1_iphoneos-arm.deb
+Filename: ./deb/jp.ashikase.libcrashreport_1.1.0-1_iphoneos-arm.deb
 Size: 30852
 Installed-Size: 196
 MD5sum: 76aadc852da4bd6cb4dc59bc02fe9f20
@@ -897,7 +1067,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Pre-Depends: firmware (>=3.0)
 Architecture: iphoneos-arm
-Filename: deb/jp.ashikase.libpackageinfo_1.1.0.1-1_iphoneos-arm.deb
+Filename: ./deb/jp.ashikase.libpackageinfo_1.1.0.1-1_iphoneos-arm.deb
 Size: 148762
 Installed-Size: 720
 MD5sum: c544484724bd16f7c964ce9bcdb44516
@@ -913,7 +1083,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Pre-Depends: firmware (>=4.0)
 Architecture: iphoneos-arm
-Filename: deb/jp.ashikase.libsymbolicate_1.9.0-1_iphoneos-arm.deb
+Filename: ./deb/jp.ashikase.libsymbolicate_1.9.0-1_iphoneos-arm.deb
 Size: 25322
 Installed-Size: 200
 MD5sum: ded5cca428237f0449596019735d4d76
@@ -931,7 +1101,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Pre-Depends: firmware (>=3.0)
 Depends: jp.ashikase.libpackageinfo
 Architecture: iphoneos-arm
-Filename: deb/jp.ashikase.techsupport_1.5.0.1-1_iphoneos-arm.deb
+Filename: ./deb/jp.ashikase.techsupport_1.5.0.1-1_iphoneos-arm.deb
 Size: 59664
 Installed-Size: 456
 MD5sum: e991cf255cd487401f17aa304479bf61
@@ -947,7 +1117,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 8.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/me.alfhaily.adblockforyoutube_1.0.3_iphoneos-arm.deb
+Filename: ./deb/me.alfhaily.adblockforyoutube_1.0.3_iphoneos-arm.deb
 Size: 31306
 Installed-Size: 241
 MD5sum: d6d6b2ed899820bd686379199b4bee07
@@ -964,7 +1134,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 8.0), mobilesubstrate, me.alfhaily.adblockforyoutube (>= 1.0.7), com.rpetrich.rocketbootstrap, me.alfhaily.cercube.lib (>= 1.0.9)
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2
 Architecture: iphoneos-arm
-Filename: deb/me.alfhaily.cercube_4.2.2.5_iphoneos-arm.deb
+Filename: ./deb/me.alfhaily.cercube_4.2.2.5_iphoneos-arm.deb
 Size: 2797690
 Installed-Size: 8421
 MD5sum: ca5553fcc99697956746e73d09abb400
@@ -981,7 +1151,7 @@ Section: System
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: deb/mobilesubstrate_99.0_iphoneos-arm.deb
+Filename: ./deb/mobilesubstrate_99.0_iphoneos-arm.deb
 Size: 2724
 MD5sum: 5d951a9de3c708fc452184e0dccaea01
 Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
@@ -994,7 +1164,7 @@ Section: Tweaks
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), net.limneos.libbulletin
 Architecture: iphoneos-arm
-Filename: deb/net.limneos.bioprotect_2.3-8_iphoneos-arm.deb
+Filename: ./deb/net.limneos.bioprotect_2.3-8_iphoneos-arm.deb
 Size: 596078
 Installed-Size: 1812
 MD5sum: 6a120aa13ef06785af12ee2eb60a66fd
@@ -1011,7 +1181,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
-Filename: deb/net.limneos.libbulletin_0.1-142_iphoneos-arm.deb
+Filename: ./deb/net.limneos.libbulletin_0.1-142_iphoneos-arm.deb
 Size: 23904
 Installed-Size: 251
 MD5sum: 1afa5d0479404d6e360e650058effd74
@@ -1029,10 +1199,27 @@ Depends: firmware (>=11.0), mobilesubstrate, libstatus9 | libmoorecon | libstatu
 Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta, net.tateu.opennotifier9, net.tateu.opennotifier10
 Provides: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier
 Architecture: iphoneos-arm
-Filename: deb/net.tateu.opennotifier11_2.5.0~beta3_iphoneos-arm.deb
+Filename: ./deb/net.tateu.opennotifier11_2.5.0~beta3_iphoneos-arm.deb
 Size: 99806
 Installed-Size: 1199
 MD5sum: 900b983d3aab3876e6c4cb1247d52097
+Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
+Name: OpenNotifier11 - tateu
+Author: tateu (based on n00neimp0rtant) <tateu@tateu.net>
+Depiction: http://www.tateu.net/repo/html/?p=opennotifier11
+
+Package: net.tateu.opennotifier11
+Version: 2.5.0~beta1-3
+Section: Tweaks
+Maintainer: tateu (Josh Harris) <tateu@tateu.net>
+Depends: firmware (>=11.0), mobilesubstrate, libstatus9 | libmoorecon | libstatusbar, preferenceloader, applist
+Conflicts: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier, net.tateu.opennotifierbeta, net.tateu.opennotifier9, net.tateu.opennotifier10
+Provides: com.n00neimp0rtant.opennotifier, net.tateu.opennotifier
+Architecture: iphoneos-arm
+Filename: ./deb/net.tateu.opennotifier11_2.5.0~beta1-3_iphoneos-arm.deb
+Size: 137582
+Installed-Size: 1407
+MD5sum: 9f5020f860d76680981705d9f47e496b
 Description: Show Notification Icons in the status bar. Unofficial Beta version for my personal use, compiled for iOS9 and armv7 and arm64.
 Name: OpenNotifier11 - tateu
 Author: tateu (based on n00neimp0rtant) <tateu@tateu.net>
@@ -1047,7 +1234,7 @@ Depends: openssl, uuid, org.coolstar.ld64
 Conflicts: odcctools
 Provides: odcctools
 Architecture: iphoneos-arm
-Filename: deb/org.coolstar.cctools_895_iphoneos-arm.deb
+Filename: ./deb/org.coolstar.cctools_895_iphoneos-arm.deb
 Size: 1288112
 Installed-Size: 11712
 MD5sum: 4c4a9a805db329a4af6a31e9fff3f971
@@ -1064,7 +1251,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 5.0)
 Architecture: iphoneos-arm
-Filename: deb/org.coolstar.ld64_274.2_iphoneos-arm.deb
+Filename: ./deb/org.coolstar.ld64_274.2_iphoneos-arm.deb
 Size: 1517478
 Installed-Size: 8112
 MD5sum: cf4ca625ea60dfcacc07c2d2dc633ce2
@@ -1080,7 +1267,7 @@ Section: System
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
 Architecture: iphoneos-arm
-Filename: deb/org.coolstar.tweakinject_1.0.6_iphoneos-arm.deb
+Filename: ./deb/org.coolstar.tweakinject_1.0.6_iphoneos-arm.deb
 Size: 19214
 MD5sum: b2a66f99679aa137a39bc0f52f81cf3c
 Description: General purpose tweak loader with safe mode in case of crashes
@@ -1094,7 +1281,7 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 8.4), mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker, ws.hbang.common (>= 1.9), com.rpetrich.rocketbootstrap (>= 1.0.2)
 Conflicts: io.github.himynameisubik.sonus
 Architecture: iphoneos-arm
-Filename: deb/org.fwdr.sonus_3.0.2-3_iphoneos-arm.deb
+Filename: ./deb/org.fwdr.sonus_3.0.2-3_iphoneos-arm.deb
 Size: 113488
 Installed-Size: 846
 MD5sum: a01e92fd6e0278f45560f12722b28266
@@ -1112,7 +1299,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/org.thebigboss.libcolorpicker_1.6-1_iphoneos-arm.deb
+Filename: ./deb/org.thebigboss.libcolorpicker_1.6-1_iphoneos-arm.deb
 Size: 71818
 Installed-Size: 376
 MD5sum: 325a27bae9d2809ed959f09885944a6b
@@ -1131,7 +1318,7 @@ Conflicts: libstatusbar, libmoorecon
 Provides: libstatusbar, libmoorecon
 Replaces: libstatusbar, libmoorecon
 Architecture: iphoneos-arm
-Filename: deb/org.thebigboss.libstatus9_0.0.1.5-1_iphoneos-arm.deb
+Filename: ./deb/org.thebigboss.libstatus9_0.0.1.5-1_iphoneos-arm.deb
 Size: 33124
 Installed-Size: 177
 MD5sum: 2e0f36cc6722089676a6af6353a609f6
@@ -1148,7 +1335,7 @@ Section: Archiving
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: deb/p7zip_16.02_iphoneos-arm.deb
+Filename: ./deb/p7zip_16.02_iphoneos-arm.deb
 Size: 923898
 MD5sum: ac447826cc6651977fa09e2ad1cf259e
 Description: A port of 7za.exe for POSIX systems like Unix
@@ -1163,7 +1350,7 @@ Conflicts: org.coolstar.perl
 Provides: org.coolstar.perl
 Replaces: org.coolstar.perl
 Architecture: iphoneos-arm
-Filename: deb/perl_5.26.1-6_iphoneos-arm.deb
+Filename: ./deb/perl_5.26.1-6_iphoneos-arm.deb
 Size: 19054940
 Installed-Size: 117240
 MD5sum: 6b51997637a821aaeaa121e2c09925d5
@@ -1176,7 +1363,7 @@ Version: 0.9.2-2
 Section: Utilities
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Architecture: iphoneos-arm
-Filename: deb/pincrush_0.9.2-2_iphoneos-arm.deb
+Filename: ./deb/pincrush_0.9.2-2_iphoneos-arm.deb
 Size: 93806
 MD5sum: c8768523be4db830b6a65d44d9e08ae2
 Description: optimize PNGs just like Apple does
@@ -1191,7 +1378,7 @@ Section: System
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/preferenceloader_2.2.3-3_iphoneos-arm.deb
+Filename: ./deb/preferenceloader_2.2.3-3_iphoneos-arm.deb
 Size: 20212
 Installed-Size: 232
 MD5sum: d5f50688820c0fd131c9444d71ed5ff4
@@ -1208,7 +1395,7 @@ Section: Archiving
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: deb/unrar_5.5.8_iphoneos-arm.deb
+Filename: ./deb/unrar_5.5.8_iphoneos-arm.deb
 Size: 102032
 MD5sum: 498260e022c996a4262d6a4688f878ba
 Description: de-compresses files in rar format
@@ -1220,7 +1407,7 @@ Section: Archiving
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: deb/unzip_6.0_iphoneos-arm.deb
+Filename: ./deb/unzip_6.0_iphoneos-arm.deb
 Size: 74208
 MD5sum: 4d539faafa2d194d4ab0759dfb959156
 Description: de-compesses files in zip format
@@ -1232,7 +1419,7 @@ Section: System
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: deb/uuid_1.6.2_iphoneos-arm.deb
+Filename: ./deb/uuid_1.6.2_iphoneos-arm.deb
 Size: 23222
 MD5sum: 6972c534ed27bfe1af3b1f7fd757a30e
 Description: universally unique identifiers
@@ -1245,7 +1432,7 @@ Section: Development
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Depends: preferenceloader, mobilesubstrate, jp.ashikase.techsupport, com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm
-Filename: deb/ws.hbang.common_1.12_iphoneos-arm.deb
+Filename: ./deb/ws.hbang.common_1.12_iphoneos-arm.deb
 Size: 137674
 Installed-Size: 830
 MD5sum: 0a83745de1e421ef9e7bde48380be8c7
@@ -1263,7 +1450,7 @@ Depends: firmware (>= 7.0), com.modmyi.libswift4 (>= 4.0.3-3), ws.hbang.common (
 Conflicts: ws.hbang.newterm
 Replaces: ws.hbang.newterm
 Architecture: iphoneos-arm
-Filename: deb/ws.hbang.newterm2_2.0_iphoneos-arm.deb
+Filename: ./deb/ws.hbang.newterm2_2.0_iphoneos-arm.deb
 Size: 738608
 Installed-Size: 2192
 MD5sum: d24b9d6245042596ad242892f6cad45c
@@ -1280,7 +1467,7 @@ Section: Archiving
 Maintainer: CoolStar <coolstarorganization@gmail.com>
 Depends: cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: deb/zip_3.0_iphoneos-arm.deb
+Filename: ./deb/zip_3.0_iphoneos-arm.deb
 Size: 97010
 MD5sum: 275be7a467b1befddb2e2f733a0b2893
 Description: standard Windows compression tool
